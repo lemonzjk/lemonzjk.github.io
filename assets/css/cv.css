@@ -310,10 +310,11 @@
 }
 
 .cv-detail-list strong {
-  color: var(--cv-ink);
+  color: inherit;
 }
 
 .cv-detail-list .cv-label {
+  color: var(--cv-ink);
   display: inline-block;
   margin-right: 0.35em;
   white-space: nowrap;

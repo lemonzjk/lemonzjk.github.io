@@ -151,17 +151,17 @@ Feel free to reach out if you are interested in research discussion or collabora
 <script src="assets/js/pub_media_rotator.js"></script>
 
 <h2 id="projects">Projects</h2>
-<div class="project-card project-card--featured" data-category="project">
-  <div class="project-card__inner">
-    <div class="project-media">
-      <img src="/assets/project_imgs/garden.png" alt="GARDEN smart sanitation model overview">
+<div class="project-card" data-category="project">
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="/assets/project_imgs/garden.png" alt="GARDEN smart sanitation model overview" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
     </div>
-    <div class="project-copy">
+    <div>
       <strong>GARDEN Smart Sanitation Foundation Model</strong><br>
       <i style="font-size: 13px;">Chongqing Major AI Project, 10 million RMB, 2023.01 - 2026.12.</i><br>
-      The project develops an intelligent sanitation operation system that integrates environmental perception, risk reasoning, and disposal decision-making for urban governance scenarios.
+      This project targets urban sanitation scenarios and develops GARDEN, an intelligent sanitation foundation model integrating environmental perception, risk reasoning, and disposal decision-making.
       <br>
-      <span style="color:#888;">My contributions: data collection design, real-scene shooting and synthetic garbage data construction, multi-level vision-language annotation design, GARDEN model fine-tuning and optimization, and an interactive demo supporting image upload, voice interaction, and structured reasoning display.</span>
+      <span style="color:#888;">Main responsibilities: designed sanitation-scene data collection schemes, organized real-scene shooting and synthetic garbage target generation, designed a multi-level vision-language annotation system, implemented GARDEN fine-tuning and iterative optimization, and developed an interactive demo supporting image upload, voice interaction, and structured reasoning-result display.</span>
       <br>
       <b><i style="color:#83a1c7;">Project · Multimodal Large Model · Risk Reasoning · Decision Support</i></b>
     </div>
@@ -170,8 +170,8 @@ Feel free to reach out if you are interested in research discussion or collabora
 
 <h2 id="patents">Patents</h2>
 
-- *2025.12.04*, Uncertainty-Guided Hierarchical Retrieval for Sanitation Video Garbage Detection, accepted. Jiaxu Leng, Jiankang Zheng, Mengjingcheng Mo, Shuang Li, and Xinbo Gao.
-- *2025.11.03*, Multimodal UAV Video Anomaly Detection and Decision Method for Sanitation Tasks, accepted. Jiaxu Leng, Xinyang Tong, Mengjingcheng Mo, Jiankang Zheng, and Xinbo Gao.
+- *2025.12.04*, Uncertainty-Guided Hierarchical Retrieval for Sanitation Video Garbage Detection, accepted. Jiaxu Leng, **Jiankang Zheng**, Mengjingcheng Mo, Shuang Li, and Xinbo Gao.
+- *2025.11.03*, Multimodal UAV Video Anomaly Detection and Decision Method for Sanitation Tasks, accepted. Jiaxu Leng, Xinyang Tong, Mengjingcheng Mo, **Jiankang Zheng**, and Xinbo Gao.
 
 <h2 id="awards">Awards</h2>
 - *2025*, First-Class Graduate Academic Scholarship, Chongqing University of Posts and Telecommunications.

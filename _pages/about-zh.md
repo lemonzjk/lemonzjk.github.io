@@ -147,17 +147,17 @@ stylesheets:
 <script src="/assets/js/pub_media_rotator.js"></script>
 
 <h2 id="projects">项目</h2>
-<div class="project-card project-card--featured" data-category="project">
-  <div class="project-card__inner">
-    <div class="project-media">
-      <img src="/assets/project_imgs/garden.png" alt="GARDEN 智慧环卫大模型项目图">
+<div class="project-card" data-category="project">
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="/assets/project_imgs/garden.png" alt="GARDEN 智慧环卫大模型项目图" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
     </div>
-    <div class="project-copy">
+    <div>
       <strong>GARDEN 智慧环卫大模型</strong><br>
       <i style="font-size: 13px;">重庆市人工智能重大专项项目，1000 万元，2023.01 - 2026.12。</i><br>
-      该项目面向城市治理中的环卫场景，构建集环境感知、风险推理与处置决策于一体的智能环卫作业系统。
+      面向城市治理中的环卫场景，研发 GARDEN 智慧环卫大模型，构建集环境感知、风险推理与处置决策于一体的智能环卫作业系统。
       <br>
-      <span style="color:#888;">我的工作：数据采集方案设计、真实场景拍摄与垃圾目标合成、多层次视觉语言标注设计、GARDEN 模型微调与优化，以及支持图像上传、语音交互和结构化推理展示的交互式演示系统开发。</span>
+      <span style="color:#888;">主要负责：设计环卫场景数据采集方案，组织真实场景拍摄与垃圾目标合成；设计智慧环卫多层次视觉语言标注体系；实现 GARDEN 多模态大模型微调与迭代优化；开发支持图像上传、语音交互和结构化推理结果展示的模型演示交互系统。</span>
       <br>
       <b><i style="color:#83a1c7;">Project · Multimodal Large Model · Risk Reasoning · Decision Support</i></b>
     </div>
@@ -166,8 +166,8 @@ stylesheets:
 
 <h2 id="patents">专利</h2>
 
-- *2025.12.04*，一种基于不确定性引导层级检索的环卫视频垃圾检测方法，已受理。冷佳旭，郑健康，莫梦竟成，李爽，高新波。
-- *2025.11.03*，面向环卫任务的多模态无人机视频异常检测与决策方法，已受理。冷佳旭，童新阳，莫梦竟成，郑健康，高新波。
+- *2025.12.04*，一种基于不确定性引导层级检索的环卫视频垃圾检测方法，已受理。冷佳旭，**郑健康**，莫梦竟成，李爽，高新波。
+- *2025.11.03*，面向环卫任务的多模态无人机视频异常检测与决策方法，已受理。冷佳旭，童新阳，莫梦竟成，**郑健康**，高新波。
 
 <h2 id="awards">荣誉</h2>
 - *2025*，重庆邮电大学研究生一等学业奖学金。
