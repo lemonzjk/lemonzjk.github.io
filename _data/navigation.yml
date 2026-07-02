@@ -1,0 +1,45 @@
+# main links
+
+main:
+  - title: "News"
+    url: "/#news"
+
+  - title: "Experience"
+    url: "/#experience"
+
+  - title: "Pub"
+    url: "/#publications"
+
+  - title: "Project"
+    url: "/#projects"
+
+  - title: "Awards"
+    url: "/#awards"
+
+  - title: "Services"
+    url: "/#services"
+
+  - title: "CV"
+    url: "/cv/"
+
+main_zh:
+  - title: "动态"
+    url: "/zh/#news"
+
+  - title: "经历"
+    url: "/zh/#experience"
+
+  - title: "论文"
+    url: "/zh/#publications"
+
+  - title: "项目"
+    url: "/zh/#projects"
+
+  - title: "荣誉"
+    url: "/zh/#awards"
+
+  - title: "服务"
+    url: "/zh/#services"
+
+  - title: "简历"
+    url: "/cv/"

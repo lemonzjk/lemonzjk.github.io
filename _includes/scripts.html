@@ -1,0 +1,141 @@
+<script src="{{ base_path }}/assets/js/main.min.js"></script>
+<script>
+(function() {
+  function getTheme() {
+    return document.documentElement.getAttribute('data-theme') || 'light';
+  }
+
+  function setTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('site-theme', theme);
+    document.querySelectorAll('.theme-toggle').forEach(function(button) {
+      var isDark = theme === 'dark';
+      button.setAttribute('aria-pressed', isDark ? 'true' : 'false');
+      button.classList.toggle('is-dark', isDark);
+    });
+  }
+
+  function closeAll() {
+    document.querySelectorAll('.author__urls-wrapper.is-open').forEach(function(wrapper) {
+      wrapper.classList.remove('is-open');
+    });
+  }
+
+  function mastheadOffset() {
+    var masthead = document.querySelector('.masthead');
+    var height = masthead ? Math.ceil(masthead.getBoundingClientRect().height) : 70;
+    return -(height + 18);
+  }
+
+  function normalizedPath(pathname) {
+    return pathname.replace(/\/+$/, '') || '/';
+  }
+
+  function samePageHashUrl(anchor) {
+    if (!anchor || !anchor.hash || anchor.hash === '#') return null;
+    var url = new URL(anchor.href, window.location.href);
+    if (url.origin !== window.location.origin) return null;
+    if (normalizedPath(url.pathname) !== normalizedPath(window.location.pathname)) return null;
+    return url;
+  }
+
+  function scrollToHash(hash, behavior) {
+    var id = decodeURIComponent(hash.slice(1));
+    var target = document.getElementById(id);
+    if (!target) return false;
+    var top = target.getBoundingClientRect().top + window.pageYOffset + mastheadOffset();
+    window.scrollTo({ top: Math.max(0, top), behavior: behavior || 'smooth' });
+    return true;
+  }
+
+  function initBackToTop() {
+    var button = document.querySelector('.back-to-top');
+    if (!button) return;
+
+    function updateVisibility() {
+      var visible = window.pageYOffset > 420;
+      button.hidden = false;
+      button.classList.toggle('is-visible', visible);
+    }
+
+    button.addEventListener('click', function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (window.history && window.history.replaceState && window.location.hash) {
+        window.history.replaceState(null, '', window.location.pathname + window.location.search);
+      }
+    });
+
+    window.addEventListener('scroll', updateVisibility, { passive: true });
+    updateVisibility();
+  }
+
+  function init() {
+    document.querySelectorAll('.author__urls-wrapper').forEach(function(wrapper) {
+      var button = wrapper.querySelector('button');
+      var list = wrapper.querySelector('.author__urls');
+      if (!button || !list) return;
+
+      button.addEventListener('click', function(event) {
+        event.preventDefault();
+        event.stopPropagation();
+        wrapper.classList.toggle('is-open');
+      });
+    });
+
+    setTheme(getTheme());
+    document.querySelectorAll('.theme-toggle').forEach(function(button) {
+      function toggleTheme(event) {
+        event.preventDefault();
+        event.stopPropagation();
+        setTheme(getTheme() === 'dark' ? 'light' : 'dark');
+      }
+
+      button.addEventListener('click', toggleTheme);
+      button.addEventListener('keydown', function(event) {
+        if (event.key === 'Enter' || event.key === ' ') {
+          toggleTheme(event);
+        }
+      });
+    });
+
+    document.addEventListener('click', function() {
+      closeAll();
+    });
+
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape') closeAll();
+    });
+
+    initBackToTop();
+
+    document.addEventListener('click', function(event) {
+      var anchor = event.target.closest ? event.target.closest('a[href*="#"]') : null;
+      var url = samePageHashUrl(anchor);
+      if (!url || !scrollToHash(url.hash)) return;
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      if (window.history && window.history.pushState) {
+        window.history.pushState(null, '', url.pathname + url.search + url.hash);
+      } else {
+        window.location.hash = url.hash;
+      }
+      closeAll();
+    }, true);
+
+    if (window.location.hash) {
+      window.setTimeout(function() {
+        scrollToHash(window.location.hash, 'auto');
+      }, 120);
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
+
+{% include analytics.html %}
+{% include /comments-providers/scripts.html %}

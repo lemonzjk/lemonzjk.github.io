@@ -1,0 +1,38 @@
+# Jekyll build output and cache
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Local Ruby dependencies and config
+/vendor/
+.bundle/
+*.gem
+
+# Node dependencies, if frontend tooling is added later
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Local-only files
+local/
+legacy-homepage/
+.agents/
+.codex/
+assets/cv-zh.pdf
+assets/简历-zh.pdf
+images/cqupt-logo.png
+images/hbuas-logo.png
+images/cv-photo.jpg
+images/profile.png
+images/lowlight.png
+images/lrpo.png
+images/piercingeye.png
+.DS_Store
+Thumbs.db
+*.log
+
+# Temporary screenshots and generated previews
+homepage-*.png
+screenshot*.png

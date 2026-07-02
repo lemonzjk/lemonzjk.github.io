@@ -1,0 +1,219 @@
+---
+permalink: /
+lang: en
+translation_url: /zh/
+author_profile: true
+stylesheets:
+  - /assets/css/home.css
+redirect_from:
+  - /about/
+  - /about.html
+---
+
+<h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px" alt=""> I am Jiankang Zheng!</h1>
+
+Hi! I am an academic M.S. student in Computer Science and Technology at Chongqing University of Posts and Telecommunications, advised by Associate Professor Jiaxu Leng in Professor Xinbo Gao's team.
+
+I am applying for **2027 Fall Ph.D. programs**. My research focuses on **Video Anomaly Understanding (VAU)**, with broader interests in multimodal large models, agents, embodied intelligence, vision-language reasoning, and training-free video anomaly detection.
+
+Feel free to reach out if you are interested in research discussion or collaboration. You can also find my profile on [Google Scholar](https://scholar.google.com/citations?user=ntH6xVMAAAAJ) and my technical notes on [CSDN](https://blog.csdn.net/lemonzjk).
+
+<h2 id="news">News</h2>
+<div class="news-box">
+  <ul class="news-list">
+    <li><span class="news-date"><em>2026</em></span><span class="news-emoji" aria-hidden="true">🎉</span> One paper accepted by <strong>ICML 2026</strong> on linguistic relative policy optimization for video anomaly reasoning.</li>
+    <li><span class="news-date"><em>2026</em></span><span class="news-emoji" aria-hidden="true">🎉</span> One collaborative paper accepted by <strong>ICMR 2026</strong> on retrieval-guided contextual inference for low-light video anomaly detection.</li>
+    <li><span class="news-date"><em>2025</em></span><span class="news-emoji" aria-hidden="true">🎉</span> One collaborative benchmark paper accepted by <strong>NeurIPS D&amp;B 2025</strong>: A2Seek for aerial anomaly understanding.</li>
+    <li><span class="news-date"><em>2025</em></span><span class="news-emoji" aria-hidden="true">🎉</span> Received First-Class Graduate Academic Scholarship at CQUPT.</li>
+    <li><span class="news-date"><em>2025</em></span><span class="news-emoji" aria-hidden="true">🎉</span> Won Third Prize in the Huawei Cup China Graduate Mathematical Modeling Competition.</li>
+  </ul>
+</div>
+
+<h2 id="experience">Experience</h2>
+
+<div class="experience-container">
+  <div class="experience-card">
+      <img src="images/cqupt-mark.png" alt="CQUPT emblem" class="experience-logo">
+      <div class="experience-info">
+          <strong>Chongqing University of Posts and Telecommunications</strong><br>
+          <em>2024.09 - 2027.06 expected</em><br>
+          Academic M.S. student in Computer Science and Technology, advised by Associate Professor Jiaxu Leng.<br>
+          <span style="color:#888;">GPA: 3.77 / 4.00, rank 3 / 140. Research interests: multimodal large models, agents, embodied intelligence, and video anomaly understanding.</span>
+      </div>
+  </div>
+
+  <div class="experience-card">
+      <img src="images/hbuas-mark.png" alt="Hebei University of Aeronautics and Astronautics emblem" class="experience-logo">
+      <div class="experience-info">
+          <strong>Hebei University of Aeronautics and Astronautics</strong><br>
+          <em>2020.09 - 2024.07</em><br>
+          B.E. in Software Engineering.<br>
+          <span style="color:#888;">GPA: 3.40 / 4.00, rank 28 / 169.</span>
+      </div>
+  </div>
+</div>
+
+<h2 id="publications">Publications</h2>
+<button class="pub-button active" onclick="filterPublications(event, 'all')">Core Publications</button>
+<button class="pub-button" onclick="filterPublications(event, 'list')">Full Publications List</button>
+
+(* equal contribution · &dagger; corresponding author)
+
+<div id="core-publications" class="publication-view" data-publication-view="core">
+<div class="publication-card featured" data-category="all">
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="assets/paper_imgs/icml26-lrpo.png" alt="LRPO overview" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    </div>
+    <div>
+      <strong>Linguistic Relative Policy Optimization for Video Anomaly Reasoning</strong><br>
+      <i style="font-size: 13px;">
+        Jiaxu Leng, <strong>Jiankang Zheng</strong> (student first author), Mengjingcheng Mo, Zhanjie Wu, Haosheng Chen, Ji Gan, and Xinbo Gao&dagger;.
+      </i><br>
+      LRPO extracts group-relative semantic advantages from multiple reasoning trajectories and converts them into linguistic anomaly priors. The priors are injected as context to improve video anomaly reasoning without updating model parameters.
+      <br>
+      <b><i style="color:#83a1c7;">ICML 2026 · CCF-A</i></b>
+    </div>
+  </div>
+</div>
+
+<div class="publication-card featured" data-category="all">
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="assets/paper_imgs/tmm-ughr.png" alt="Uncertainty-guided hierarchical retrieval" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    </div>
+    <div>
+      <strong>Training-Free Video Anomaly Detection via Uncertainty-Guided Hierarchical Retrieval with Vision-Language Models</strong><br>
+      <i style="font-size: 13px;">
+        <strong>Jiankang Zheng</strong> (first author), Mengjingcheng Mo*, Jiaxu Leng, Mingpi Tan, Zhanjie Wu, Ji Gan, Haosheng Chen, and Xinbo Gao.
+      </i><br>
+      UGHR evaluates discriminative uncertainty and retrieves high-confidence normal/abnormal references from short-term, scene, and global memories to strengthen frozen VLMs under weak visual evidence.
+      <br>
+      <b><i style="color:#83a1c7;">IEEE TMM · Under Revision · CCF-A / CAS Zone 1 Top</i></b>
+    </div>
+  </div>
+</div>
+
+<div class="publication-card featured" data-category="all">
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="assets/paper_imgs/icmr26-reci.png" alt="Low-light contextual inference" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    </div>
+    <div>
+      <strong>Retrieval-Guided Contextual Inference for Training-Free Video Anomaly Detection in Low-Light Scenarios</strong><br>
+      <i style="font-size: 13px;">
+        Mengjingcheng Mo, <strong>Jiankang Zheng</strong> (second author), Jiaxu Leng&dagger;, and Xinbo Gao.
+      </i><br>
+      ReCI builds semantic context from local clip descriptions and global scene summaries, then retrieves high-confidence references to improve robustness in low-light anomaly detection.
+      <br>
+      <b><i style="color:#83a1c7;">ICMR 2026 · CCF-B</i></b>
+    </div>
+  </div>
+</div>
+</div>
+
+<div id="full-publications" class="publication-view" data-publication-view="list" hidden>
+  <ul class="full-publication-list">
+    <li>
+      <span class="pub-list-badge">ICML 2026</span>
+      <span class="pub-list-title">Linguistic Relative Policy Optimization for Video Anomaly Reasoning</span><br>
+      <span class="pub-list-authors">Jiaxu Leng, <strong>Jiankang Zheng</strong> (student first author), Mengjingcheng Mo, Zhanjie Wu, Haosheng Chen, Ji Gan, and Xinbo Gao&dagger;.</span>
+      <span class="pub-list-note">CCF-A.</span>
+    </li>
+    <li>
+      <span class="pub-list-badge">IEEE TMM</span>
+      <span class="pub-list-title">Training-Free Video Anomaly Detection via Uncertainty-Guided Hierarchical Retrieval with Vision-Language Models</span><br>
+      <span class="pub-list-authors"><strong>Jiankang Zheng</strong> (first author), Mengjingcheng Mo*, Jiaxu Leng, Mingpi Tan, Zhanjie Wu, Ji Gan, Haosheng Chen, and Xinbo Gao.</span>
+      <span class="pub-list-note">Under Revision; CCF-A; CAS Zone 1 Top.</span>
+    </li>
+    <li>
+      <span class="pub-list-badge">ICMR 2026</span>
+      <span class="pub-list-title">Retrieval-Guided Contextual Inference for Training-Free Video Anomaly Detection in Low-Light Scenarios</span><br>
+      <span class="pub-list-authors">Mengjingcheng Mo, <strong>Jiankang Zheng</strong> (second author), Jiaxu Leng&dagger;, and Xinbo Gao.</span>
+      <span class="pub-list-note">CCF-B.</span>
+    </li>
+    <li>
+      <span class="pub-list-badge">IEEE TPAMI 2026</span>
+      <span class="pub-list-title">PiercingEye: Dual-Space Video Violence Detection with Hyperbolic Vision-Language Guidance</span><br>
+      <span class="pub-list-authors">Jiaxu Leng, Zhanjie Wu, Mingpi Tan, Mengjingcheng Mo, <strong>Jiankang Zheng</strong>, Qingqing Li, Ji Gan, and Xinbo Gao&dagger;.</span>
+      <span class="pub-list-note">CCF-A; CAS Zone 1 Top.</span>
+    </li>
+    <li>
+      <span class="pub-list-badge">NeurIPS D&amp;B 2025</span>
+      <span class="pub-list-title">A2Seek: Towards Reasoning-Centric Benchmark for Aerial Anomaly Understanding</span><br>
+      <span class="pub-list-authors">Mengjingcheng Mo, Xinyang Tong, Mingpi Tan, Jiaxu Leng&dagger;, <strong>Jiankang Zheng</strong>, Yiran Liu, Haosheng Chen, Ji Gan, Weisheng Li, and Xinbo Gao&dagger;.</span>
+      <span class="pub-list-note">CCF-A.</span>
+    </li>
+  </ul>
+</div>
+
+<script src="assets/js/show_publications.js"></script>
+<script src="assets/js/pub_media_rotator.js"></script>
+
+<h2 id="projects">Projects</h2>
+<div class="project-card" data-category="project">
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/garden.png" alt="GARDEN smart sanitation model" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    </div>
+    <div>
+      <strong>GARDEN Smart Sanitation Foundation Model</strong><br>
+      <i style="font-size: 13px;">Chongqing Major AI Project, 10 million RMB, 2023.01 - 2026.12.</i><br>
+      The project develops an intelligent sanitation operation system that integrates environmental perception, risk reasoning, and disposal decision-making for urban governance scenarios.
+      <br>
+      <span style="color:#888;">My contributions: data collection design, real-scene shooting and synthetic garbage data construction, multi-level vision-language annotation design, GARDEN model fine-tuning and optimization, and an interactive demo supporting image upload, voice interaction, and structured reasoning display.</span>
+      <br>
+      <b><i style="color:#83a1c7;">Project · Multimodal Large Model · Risk Reasoning · Decision Support</i></b>
+    </div>
+  </div>
+</div>
+
+<h2 id="patents">Patents</h2>
+<div class="project-card" data-category="project">
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/ughr.png" alt="Patent illustration" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    </div>
+    <div>
+      <strong>Uncertainty-Guided Hierarchical Retrieval for Sanitation Video Garbage Detection</strong><br>
+      <i style="font-size: 13px;">Jiaxu Leng, Jiankang Zheng, Mengjingcheng Mo, Shuang Li, and Xinbo Gao.</i><br>
+      <b><i style="color:#83a1c7;">Accepted · 2025.12.04</i></b>
+    </div>
+  </div>
+</div>
+
+<div class="project-card" data-category="project">
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/a2seek.png" alt="Drone anomaly patent illustration" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    </div>
+    <div>
+      <strong>Multimodal UAV Video Anomaly Detection and Decision Method for Sanitation Tasks</strong><br>
+      <i style="font-size: 13px;">Jiaxu Leng, Xinyang Tong, Mengjingcheng Mo, Jiankang Zheng, and Xinbo Gao.</i><br>
+      <b><i style="color:#83a1c7;">Accepted · 2025.11.03</i></b>
+    </div>
+  </div>
+</div>
+
+<h2 id="awards">Awards</h2>
+- *2025*, First-Class Graduate Academic Scholarship, Chongqing University of Posts and Telecommunications.
+- *2025*, Third Prize, Huawei Cup China Graduate Mathematical Modeling Competition.
+- *2024*, Second-Class Graduate Academic Scholarship, Chongqing University of Posts and Telecommunications.
+
+<h2 id="services">Academic Services</h2>
+- Reviewer for AAAI Conference on Artificial Intelligence: AAAI 2026 and AAAI 2027.
+- Planned poster presentation at ICML 2026 for the accepted LRPO paper.
+- Participant at VALSE 2026, focusing on visual learning, agents, and embodied intelligence.
+
+<h2 id="skills">Skills</h2>
+
+- Research: literature review, problem analysis, method design, experiment design, paper writing, rebuttal, and revision.
+- Scientific visualization: motivation figures, method diagrams, ablation analysis figures, and qualitative visualization.
+- Multimodal large language models: Qwen-VL, LoRA, GRPO, ModelScope SWIFT, fine-tuning, preference optimization, inference, and deployment.
+- Engineering: Python, Java, C, C#, Git, Linux, Docker, Spring Boot, Vue, MySQL, Redis, and research demo system development.
+- AI-assisted development: Codex and GitHub Copilot for coding, refactoring, and productivity improvement.
+- English: CET-6; reading English papers and technical documentation; academic paper writing.
+
+<h2 id="blogs">Blogs</h2>
+
+- CSDN: [https://blog.csdn.net/lemonzjk](https://blog.csdn.net/lemonzjk), 390k+ visits.

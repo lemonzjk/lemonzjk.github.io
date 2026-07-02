@@ -1,0 +1,39 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ page.lang | default: site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body>
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    {{ content }}
+
+    {% assign page_lang = page.lang | default: site.locale %}
+    <button class="back-to-top" type="button" aria-label="{% if page_lang contains 'zh' %}回到顶部{% else %}Back to top{% endif %}" hidden>
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 19V5"></path>
+        <path d="m6 11 6-6 6 6"></path>
+      </svg>
+    </button>
+
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>

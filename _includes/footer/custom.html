@@ -1,0 +1,19 @@
+<!-- start custom footer snippets -->
+{% assign footer_lang = page.lang | default: site.locale %}
+<div class="site-acknowledgements">
+  {% if footer_lang contains 'zh' %}
+    感谢开源仓库
+    <a href="https://github.com/WD7ang/WowPage" target="_blank" rel="noopener">WD7ang/WowPage</a>
+    与
+    <a href="https://github.com/2-mo/2-mo.github.io" target="_blank" rel="noopener">2-mo/2-mo.github.io</a>
+    公开代码。
+  {% else %}
+    Thanks to the open-source projects
+    <a href="https://github.com/WD7ang/WowPage" target="_blank" rel="noopener">WD7ang/WowPage</a>
+    and
+    <a href="https://github.com/2-mo/2-mo.github.io" target="_blank" rel="noopener">2-mo/2-mo.github.io</a>
+    for making their code publicly available.
+  {% endif %}
+</div>
+<a href="/sitemap/">Sitemap</a>
+<!-- end custom footer snippets -->
