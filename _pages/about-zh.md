@@ -18,11 +18,11 @@ stylesheets:
 <h2 id="news">动态</h2>
 <div class="news-box">
   <ul class="news-list">
-    <li><span class="news-date"><em>2026</em></span><span class="news-emoji" aria-hidden="true">🎉</span> 一篇关于视频异常推理语言化相对策略优化的论文被 <strong>ICML 2026</strong> 录用。</li>
-    <li><span class="news-date"><em>2026</em></span><span class="news-emoji" aria-hidden="true">🎉</span> 一篇合作论文被 <strong>ICMR 2026</strong> 录用，研究低光照视频异常检测中的检索引导上下文推理。</li>
-    <li><span class="news-date"><em>2025</em></span><span class="news-emoji" aria-hidden="true">🎉</span> 一篇合作基准论文被 <strong>NeurIPS D&amp;B 2025</strong> 录用：A2Seek，面向航拍异常理解的推理中心基准。</li>
-    <li><span class="news-date"><em>2025</em></span><span class="news-emoji" aria-hidden="true">🎉</span> 获重庆邮电大学研究生一等学业奖学金。</li>
-    <li><span class="news-date"><em>2025</em></span><span class="news-emoji" aria-hidden="true">🎉</span> 获“华为杯”中国研究生数学建模竞赛三等奖。</li>
+    <li><span class="news-date"><em>2026</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">一篇关于视频异常推理语言化相对策略优化的论文被 <strong>ICML 2026</strong> 录用。</span></li>
+    <li><span class="news-date"><em>2026</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">一篇合作论文被 <strong>ICMR 2026</strong> 录用，研究低光照视频异常检测中的检索引导上下文推理。</span></li>
+    <li><span class="news-date"><em>2025</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">一篇合作基准论文被 <strong>NeurIPS D&amp;B 2025</strong> 录用：A2Seek，面向航拍异常理解的推理中心基准。</span></li>
+    <li><span class="news-date"><em>2025</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">获重庆邮电大学研究生一等学业奖学金。</span></li>
+    <li><span class="news-date"><em>2025</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">获“华为杯”中国研究生数学建模竞赛三等奖。</span></li>
   </ul>
 </div>
 
@@ -165,31 +165,9 @@ stylesheets:
 </div>
 
 <h2 id="patents">专利</h2>
-<div class="project-card" data-category="project">
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="/images/ughr.png" alt="Patent illustration" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
-    </div>
-    <div>
-      <strong>一种基于不确定性引导层级检索的环卫视频垃圾检测方法</strong><br>
-      <i style="font-size: 13px;">冷佳旭，郑健康，莫梦竟成，李爽，高新波。</i><br>
-      <b><i style="color:#83a1c7;">已受理 · 2025.12.04</i></b>
-    </div>
-  </div>
-</div>
 
-<div class="project-card" data-category="project">
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="/images/a2seek.png" alt="Drone anomaly patent illustration" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
-    </div>
-    <div>
-      <strong>面向环卫任务的多模态无人机视频异常检测与决策方法</strong><br>
-      <i style="font-size: 13px;">冷佳旭，童新阳，莫梦竟成，郑健康，高新波。</i><br>
-      <b><i style="color:#83a1c7;">已受理 · 2025.11.03</i></b>
-    </div>
-  </div>
-</div>
+- *2025.12.04*，一种基于不确定性引导层级检索的环卫视频垃圾检测方法，已受理。冷佳旭，郑健康，莫梦竟成，李爽，高新波。
+- *2025.11.03*，面向环卫任务的多模态无人机视频异常检测与决策方法，已受理。冷佳旭，童新阳，莫梦竟成，郑健康，高新波。
 
 <h2 id="awards">荣誉</h2>
 - *2025*，重庆邮电大学研究生一等学业奖学金。

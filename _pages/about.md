@@ -21,11 +21,11 @@ Feel free to reach out if you are interested in research discussion or collabora
 <h2 id="news">News</h2>
 <div class="news-box">
   <ul class="news-list">
-    <li><span class="news-date"><em>2026</em></span><span class="news-emoji" aria-hidden="true">🎉</span> One paper accepted by <strong>ICML 2026</strong> on linguistic relative policy optimization for video anomaly reasoning.</li>
-    <li><span class="news-date"><em>2026</em></span><span class="news-emoji" aria-hidden="true">🎉</span> One collaborative paper accepted by <strong>ICMR 2026</strong> on retrieval-guided contextual inference for low-light video anomaly detection.</li>
-    <li><span class="news-date"><em>2025</em></span><span class="news-emoji" aria-hidden="true">🎉</span> One collaborative benchmark paper accepted by <strong>NeurIPS D&amp;B 2025</strong>: A2Seek for aerial anomaly understanding.</li>
-    <li><span class="news-date"><em>2025</em></span><span class="news-emoji" aria-hidden="true">🎉</span> Received First-Class Graduate Academic Scholarship at CQUPT.</li>
-    <li><span class="news-date"><em>2025</em></span><span class="news-emoji" aria-hidden="true">🎉</span> Won Third Prize in the Huawei Cup China Graduate Mathematical Modeling Competition.</li>
+    <li><span class="news-date"><em>2026</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">One paper accepted by <strong>ICML 2026</strong> on linguistic relative policy optimization for video anomaly reasoning.</span></li>
+    <li><span class="news-date"><em>2026</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">One collaborative paper accepted by <strong>ICMR 2026</strong> on retrieval-guided contextual inference for low-light video anomaly detection.</span></li>
+    <li><span class="news-date"><em>2025</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">One collaborative benchmark paper accepted by <strong>NeurIPS D&amp;B 2025</strong>: A2Seek for aerial anomaly understanding.</span></li>
+    <li><span class="news-date"><em>2025</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">Received First-Class Graduate Academic Scholarship at CQUPT.</span></li>
+    <li><span class="news-date"><em>2025</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">Won Third Prize in the Huawei Cup China Graduate Mathematical Modeling Competition.</span></li>
   </ul>
 </div>
 
@@ -169,31 +169,9 @@ Feel free to reach out if you are interested in research discussion or collabora
 </div>
 
 <h2 id="patents">Patents</h2>
-<div class="project-card" data-category="project">
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="images/ughr.png" alt="Patent illustration" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
-    </div>
-    <div>
-      <strong>Uncertainty-Guided Hierarchical Retrieval for Sanitation Video Garbage Detection</strong><br>
-      <i style="font-size: 13px;">Jiaxu Leng, Jiankang Zheng, Mengjingcheng Mo, Shuang Li, and Xinbo Gao.</i><br>
-      <b><i style="color:#83a1c7;">Accepted · 2025.12.04</i></b>
-    </div>
-  </div>
-</div>
 
-<div class="project-card" data-category="project">
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="images/a2seek.png" alt="Drone anomaly patent illustration" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
-    </div>
-    <div>
-      <strong>Multimodal UAV Video Anomaly Detection and Decision Method for Sanitation Tasks</strong><br>
-      <i style="font-size: 13px;">Jiaxu Leng, Xinyang Tong, Mengjingcheng Mo, Jiankang Zheng, and Xinbo Gao.</i><br>
-      <b><i style="color:#83a1c7;">Accepted · 2025.11.03</i></b>
-    </div>
-  </div>
-</div>
+- *2025.12.04*, Uncertainty-Guided Hierarchical Retrieval for Sanitation Video Garbage Detection, accepted. Jiaxu Leng, Jiankang Zheng, Mengjingcheng Mo, Shuang Li, and Xinbo Gao.
+- *2025.11.03*, Multimodal UAV Video Anomaly Detection and Decision Method for Sanitation Tasks, accepted. Jiaxu Leng, Xinyang Tong, Mengjingcheng Mo, Jiankang Zheng, and Xinbo Gao.
 
 <h2 id="awards">Awards</h2>
 - *2025*, First-Class Graduate Academic Scholarship, Chongqing University of Posts and Telecommunications.
