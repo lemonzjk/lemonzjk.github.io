@@ -147,12 +147,12 @@ stylesheets:
 <script src="/assets/js/pub_media_rotator.js"></script>
 
 <h2 id="projects">项目</h2>
-<div class="project-card" data-category="project">
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="/images/garden.png" alt="GARDEN smart sanitation model" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+<div class="project-card project-card--featured" data-category="project">
+  <div class="project-card__inner">
+    <div class="project-media">
+      <img src="/assets/project_imgs/garden.png" alt="GARDEN 智慧环卫大模型项目图">
     </div>
-    <div>
+    <div class="project-copy">
       <strong>GARDEN 智慧环卫大模型</strong><br>
       <i style="font-size: 13px;">重庆市人工智能重大专项项目，1000 万元，2023.01 - 2026.12。</i><br>
       该项目面向城市治理中的环卫场景，构建集环境感知、风险推理与处置决策于一体的智能环卫作业系统。

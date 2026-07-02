@@ -328,6 +328,35 @@
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     }
 
+    .project-card--featured {
+        padding: 12px;
+    }
+
+    .project-card__inner {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+    }
+
+    .project-media {
+        background: #eef5f8;
+        border: 1px solid #dbe8ef;
+        border-radius: 8px;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .project-media img {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+
+    .project-copy {
+        width: 100%;
+    }
+
       @media (max-width: 720px) {
         .experience-logo {
             width: 52px;
@@ -362,6 +391,11 @@
             width: 100% !important;
             height: 100% !important;
             object-fit: contain;
+        }
+
+        .project-media img {
+            height: auto !important;
+            width: 100% !important;
         }
 
         .publication-card strong,
