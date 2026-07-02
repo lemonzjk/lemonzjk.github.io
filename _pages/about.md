@@ -43,9 +43,9 @@ Feel free to reach out if you are interested in research discussion or collabora
   </div>
 
   <div class="experience-card">
-      <img src="images/hbuas-mark.png" alt="Hebei University of Aeronautics and Astronautics emblem" class="experience-logo">
+      <img src="images/hbuas-mark.png" alt="North China Institute of Aerospace Engineering emblem" class="experience-logo">
       <div class="experience-info">
-          <strong>Hebei University of Aeronautics and Astronautics</strong><br>
+          <strong>North China Institute of Aerospace Engineering</strong><br>
           <em>2020.09 - 2024.07</em><br>
           B.E. in Software Engineering.<br>
           <span style="color:#888;">GPA: 3.40 / 4.00, rank 28 / 169.</span>
