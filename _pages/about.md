@@ -63,7 +63,7 @@ Feel free to reach out if you are interested in research discussion or collabora
 <div class="publication-card featured" data-category="all">
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="assets/paper_imgs/icml26-lrpo.png" alt="LRPO overview" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+      <img src="assets/paper_imgs/icml26-lrpo.png" alt="LRPO overview" loading="lazy" decoding="async" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
     </div>
     <div>
       <strong>Linguistic Relative Policy Optimization for Video Anomaly Reasoning</strong><br>
@@ -80,7 +80,7 @@ Feel free to reach out if you are interested in research discussion or collabora
 <div class="publication-card featured" data-category="all">
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="assets/paper_imgs/tmm-ughr.png" alt="Uncertainty-guided hierarchical retrieval" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+      <img src="assets/paper_imgs/tmm-ughr.png" alt="Uncertainty-guided hierarchical retrieval" loading="lazy" decoding="async" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
     </div>
     <div>
       <strong>Training-Free Video Anomaly Detection via Uncertainty-Guided Hierarchical Retrieval with Vision-Language Models</strong><br>
@@ -97,7 +97,7 @@ Feel free to reach out if you are interested in research discussion or collabora
 <div class="publication-card featured" data-category="all">
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="assets/paper_imgs/icmr26-reci.png" alt="Low-light contextual inference" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+      <img src="assets/paper_imgs/icmr26-reci.png" alt="Low-light contextual inference" loading="lazy" decoding="async" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
     </div>
     <div>
       <strong>Retrieval-Guided Contextual Inference for Training-Free Video Anomaly Detection in Low-Light Scenarios</strong><br>
@@ -154,7 +154,7 @@ Feel free to reach out if you are interested in research discussion or collabora
 <div class="project-card" data-category="project">
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="/assets/project_imgs/garden.png" alt="GARDEN smart sanitation model overview" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+      <img src="/assets/project_imgs/garden.png" alt="GARDEN smart sanitation model overview" loading="lazy" decoding="async" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
     </div>
     <div>
       <strong>GARDEN Smart Sanitation Foundation Model</strong><br>
