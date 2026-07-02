@@ -8,7 +8,7 @@ baseurl                  : ""
 repository               : "lemonzjk/lemonzjk.github.io"
 
 author:
-  avatar           : "/assets/avatar-ai-web.png"
+  avatar           : "/assets/avatar-ai-selected.png"
   name             : "Jiankang Zheng 郑健康"
   name_zh          : "郑健康"
   pronouns         : "M.S. Student"
