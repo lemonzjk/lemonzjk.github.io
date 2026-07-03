@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f2f7ff"/></linearGradient></defs>
+  <rect x="72" y="72" width="880" height="880" rx="180" fill="url(#bg)" stroke="#d6e4f3" stroke-width="7"/>
+  <circle cx="512" cy="530" r="262" fill="#dbeafe" fill-opacity="0.45"/>
+  <text x="245" y="625" font-family="Arial, Helvetica, sans-serif" font-size="425" font-weight="800" fill="#334155">J</text>
+  <text x="470" y="625" font-family="Arial, Helvetica, sans-serif" font-size="425" font-weight="800" fill="#2563eb">Z</text>
+  <rect x="390" y="720" width="245" height="28" rx="14" fill="#14b8a6"/>
+  <circle cx="685" cy="735" r="17" fill="#60a5fa"/>
+</svg>
