@@ -2,6 +2,7 @@
 title: "Jiankang Zheng 郑健康"
 description: "Jiankang Zheng (郑健康), M.S. student at Chongqing University of Posts and Telecommunications, 2027 Fall Ph.D. applicant researching Video Anomaly Understanding, multimodal large models, agents, and embodied AI."
 keywords: "Jiankang Zheng, 郑健康, Video Anomaly Understanding, 视频异常理解, CQUPT, 重庆邮电大学, multimodal large models, 多模态大模型, Ph.D. applicant"
+hide_title: true
 permalink: /
 lang: en
 translation_url: /zh/
