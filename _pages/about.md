@@ -12,6 +12,12 @@ redirect_from:
 
 <h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px" alt=""> I am Jiankang Zheng!</h1>
 
+<div class="status-banner status-banner--apply" aria-label="Ph.D. application status">
+  <span class="status-banner__badge">Ph.D. Applicant</span>
+  <span class="status-banner__main">Actively applying for 2027 Fall Ph.D. programs</span>
+  <span class="status-banner__meta">Research focus: Video Anomaly Understanding (VAU)</span>
+</div>
+
 Hi! I am an academic M.S. student in Computer Science and Technology at Chongqing University of Posts and Telecommunications, advised by Associate Professor Jiaxu Leng in Professor Xinbo Gao's team.
 
 I am applying for **2027 Fall Ph.D. programs**. My research focuses on **Video Anomaly Understanding (VAU)**, with broader interests in multimodal large models, agents, embodied intelligence, vision-language reasoning, and training-free video anomaly detection.
@@ -43,11 +49,11 @@ Feel free to reach out if you are interested in research discussion or collabora
   </div>
 
   <div class="experience-card">
-      <img src="images/hbuas-mark.png" alt="North China Institute of Aerospace Engineering emblem" class="experience-logo">
+      <img src="images/hbuas-mark.png" alt="Hebei University of Aeronautics and Astronautics emblem" class="experience-logo">
       <div class="experience-info">
-          <strong>North China Institute of Aerospace Engineering</strong><br>
+          <strong>Hebei University of Aeronautics and Astronautics</strong><br>
           <em>2020.09 - 2024.07</em><br>
-          B.E. in Software Engineering.<br>
+          B.E. in Software Engineering. Formerly North China Institute of Aerospace Engineering.<br>
           <span style="color:#888;">GPA: 3.40 / 4.00, rank 28 / 169.</span>
       </div>
   </div>
@@ -73,6 +79,9 @@ Feel free to reach out if you are interested in research discussion or collabora
       LRPO extracts group-relative semantic advantages from multiple reasoning trajectories and converts them into linguistic anomaly priors. The priors are injected as context to improve video anomaly reasoning without updating model parameters.
       <br>
       <b><i style="color:#83a1c7;">ICML 2026 · CCF-A</i></b>
+      <div class="pub-links">
+        <a class="pub-link" href="https://arxiv.org/abs/2607.00654" target="_blank" rel="noopener">Paper</a>
+      </div>
     </div>
   </div>
 </div>
@@ -119,6 +128,7 @@ Feel free to reach out if you are interested in research discussion or collabora
       <span class="pub-list-title">Linguistic Relative Policy Optimization for Video Anomaly Reasoning</span><br>
       <span class="pub-list-authors">Jiaxu Leng, <strong>Jiankang Zheng</strong> (student first author), Mengjingcheng Mo, Zhanjie Wu, Haosheng Chen, Ji Gan, and Xinbo Gao&dagger;.</span>
       <span class="pub-list-note">CCF-A.</span>
+      <span class="pub-list-links"><a href="https://arxiv.org/abs/2607.00654" target="_blank" rel="noopener">Paper</a></span>
     </li>
     <li>
       <span class="pub-list-badge">IEEE TMM</span>
@@ -137,12 +147,14 @@ Feel free to reach out if you are interested in research discussion or collabora
       <span class="pub-list-title">PiercingEye: Dual-Space Video Violence Detection with Hyperbolic Vision-Language Guidance</span><br>
       <span class="pub-list-authors">Jiaxu Leng, Zhanjie Wu, Mingpi Tan, Mengjingcheng Mo, <strong>Jiankang Zheng</strong>, Qingqing Li, Ji Gan, and Xinbo Gao&dagger;.</span>
       <span class="pub-list-note">CCF-A; CAS Zone 1 Top.</span>
+      <span class="pub-list-links"><a href="https://arxiv.org/abs/2504.18866" target="_blank" rel="noopener">Paper</a></span>
     </li>
     <li>
       <span class="pub-list-badge">NeurIPS D&amp;B 2025</span>
       <span class="pub-list-title">A2Seek: Towards Reasoning-Centric Benchmark for Aerial Anomaly Understanding</span><br>
       <span class="pub-list-authors">Mengjingcheng Mo, Xinyang Tong, Mingpi Tan, Jiaxu Leng&dagger;, <strong>Jiankang Zheng</strong>, Yiran Liu, Haosheng Chen, Ji Gan, Weisheng Li, and Xinbo Gao&dagger;.</span>
       <span class="pub-list-note">CCF-A.</span>
+      <span class="pub-list-links"><a href="https://arxiv.org/abs/2505.21962" target="_blank" rel="noopener">Paper</a><a href="https://2-mo.github.io/A2Seek/" target="_blank" rel="noopener">Project</a></span>
     </li>
   </ul>
 </div>

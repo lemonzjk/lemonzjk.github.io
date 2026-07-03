@@ -9,7 +9,13 @@ stylesheets:
 
 <h1 class="main-heading main-heading--zh">你好 <img src="/images/Hi.gif" width="40px" alt=""> 我是郑健康！</h1>
 
-你好！我是重庆邮电大学计算机科学与技术专业学术型硕士研究生，导师为冷佳旭副教授，所在团队为高新波教授团队。
+<div class="status-banner status-banner--apply" aria-label="博士申请状态">
+  <span class="status-banner__badge">Ph.D. Applicant</span>
+  <span class="status-banner__main">正在申请 2027 Fall 博士研究生项目</span>
+  <span class="status-banner__meta">研究方向：视频异常理解（VAU）</span>
+</div>
+
+你好！我是重庆邮电大学计算机科学与技术专业学术型硕士研究生，导师为冷佳旭副教授，隶属于高新波教授团队。
 
 我正在申请 **2027 Fall 博士研究生项目**。我的研究方向聚焦于 **视频异常理解（VAU，Video Anomaly Understanding）**，同时也关注多模态大模型、智能体、具身智能、视觉语言推理以及免训练视频异常检测等方向。
 
@@ -69,6 +75,9 @@ stylesheets:
       LRPO 从多条推理轨迹的组相对比较中提取语义优势，并将其转化为语言化异常先验，通过上下文注入增强视频异常推理能力，且不需要更新模型参数。
       <br>
       <b><i style="color:#83a1c7;">ICML 2026 · CCF-A</i></b>
+      <div class="pub-links">
+        <a class="pub-link" href="https://arxiv.org/abs/2607.00654" target="_blank" rel="noopener">论文</a>
+      </div>
     </div>
   </div>
 </div>
@@ -115,6 +124,7 @@ stylesheets:
       <span class="pub-list-title">Linguistic Relative Policy Optimization for Video Anomaly Reasoning</span><br>
       <span class="pub-list-authors">Jiaxu Leng, <strong>Jiankang Zheng</strong>（学生一作）, Mengjingcheng Mo, Zhanjie Wu, Haosheng Chen, Ji Gan, and Xinbo Gao&dagger;.</span>
       <span class="pub-list-note">CCF-A.</span>
+      <span class="pub-list-links"><a href="https://arxiv.org/abs/2607.00654" target="_blank" rel="noopener">论文</a></span>
     </li>
     <li>
       <span class="pub-list-badge">IEEE TMM</span>
@@ -133,12 +143,14 @@ stylesheets:
       <span class="pub-list-title">PiercingEye: Dual-Space Video Violence Detection with Hyperbolic Vision-Language Guidance</span><br>
       <span class="pub-list-authors">Jiaxu Leng, Zhanjie Wu, Mingpi Tan, Mengjingcheng Mo, <strong>Jiankang Zheng</strong>, Qingqing Li, Ji Gan, and Xinbo Gao&dagger;.</span>
       <span class="pub-list-note">CCF-A; 中科院一区 Top.</span>
+      <span class="pub-list-links"><a href="https://arxiv.org/abs/2504.18866" target="_blank" rel="noopener">论文</a></span>
     </li>
     <li>
       <span class="pub-list-badge">NeurIPS D&amp;B 2025</span>
       <span class="pub-list-title">A2Seek: Towards Reasoning-Centric Benchmark for Aerial Anomaly Understanding</span><br>
       <span class="pub-list-authors">Mengjingcheng Mo, Xinyang Tong, Mingpi Tan, Jiaxu Leng&dagger;, <strong>Jiankang Zheng</strong>, Yiran Liu, Haosheng Chen, Ji Gan, Weisheng Li, and Xinbo Gao&dagger;.</span>
       <span class="pub-list-note">CCF-A.</span>
+      <span class="pub-list-links"><a href="https://arxiv.org/abs/2505.21962" target="_blank" rel="noopener">论文</a><a href="https://2-mo.github.io/A2Seek/" target="_blank" rel="noopener">项目</a></span>
     </li>
   </ul>
 </div>

@@ -109,6 +109,27 @@ html[data-theme="dark"] .experience-card {
   box-shadow: none;
 }
 
+html[data-theme="dark"] .status-banner {
+  background: #201c20;
+  border-color: rgba(226, 139, 139, 0.38);
+  border-left-color: #d37c7c;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+  color: #d8dde3;
+}
+
+html[data-theme="dark"] .status-banner__badge {
+  background: #d37c7c;
+  color: #111418;
+}
+
+html[data-theme="dark"] .status-banner__main {
+  color: #eef2f6;
+}
+
+html[data-theme="dark"] .status-banner__meta {
+  color: #b8c0ca;
+}
+
 html[data-theme="dark"] .publication-card,
 html[data-theme="dark"] .project-card {
   background: #171b21;
@@ -154,6 +175,18 @@ html[data-theme="dark"] .pub-list-badge {
   background: rgba(211, 124, 124, 0.14);
   border-color: rgba(211, 124, 124, 0.38);
   color: #f0b3b3;
+}
+
+html[data-theme="dark"] .pub-link,
+html[data-theme="dark"] .pub-list-links a {
+  border-color: rgba(211, 124, 124, 0.42);
+  color: #f0b3b3 !important;
+}
+
+html[data-theme="dark"] .pub-link:hover,
+html[data-theme="dark"] .pub-list-links a:hover {
+  background: rgba(211, 124, 124, 0.13);
+  color: #ffd2d2 !important;
 }
 
 html[data-theme="dark"] .page__footer {

@@ -49,9 +49,10 @@ stylesheets:
 
     <div class="cv-entry">
       <div class="cv-entry-head">
-        <span class="cv-entry-title">North China Institute of Aerospace Engineering, B.Eng. in Software Engineering</span>
+        <span class="cv-entry-title">Hebei University of Aeronautics and Astronautics, B.Eng. in Software Engineering</span>
         <span class="cv-entry-meta">Langfang, Hebei, China | Sep. 2020 - Jul. 2024</span>
       </div>
+      <p class="cv-line">Formerly North China Institute of Aerospace Engineering</p>
       <p class="cv-line">GPA: 3.40 / 4.00; Rank: 28 / 169</p>
     </div>
 
