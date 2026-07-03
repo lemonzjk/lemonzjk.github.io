@@ -129,16 +129,6 @@ Feel free to reach out if you are interested in research discussion or collabora
       <b><i style="color:#83a1c7;">IEEE TMM · Under Revision · CCF-A / CAS Zone 1 Top</i></b>
       <div class="pub-links">
         <a class="pub-link" href="https://github.com/lemonzjk/UGHR" target="_blank" rel="noopener">Code</a>
-        <details class="pub-cite">
-          <summary> BibTeX </summary>
-<pre>@article{zheng2026ughr,
-  title={Training-Free Video Anomaly Detection via Uncertainty-Guided Hierarchical Retrieval with Vision-Language Models},
-  author={Zheng, Jiankang and Mo, Mengjingcheng and Leng, Jiaxu and Tan, Mingpi and Wu, Zhanjie and Gan, Ji and Chen, Haosheng and Gao, Xinbo},
-  journal={IEEE Transactions on Multimedia},
-  year={2026},
-  note={Under revision}
-}</pre>
-        </details>
       </div>
     </div>
   </div>
@@ -158,12 +148,14 @@ Feel free to reach out if you are interested in research discussion or collabora
       <br>
       <b><i style="color:#83a1c7;">ICMR 2026 · CCF-B</i></b>
       <div class="pub-links">
+        <a class="pub-link" href="https://dl.acm.org/doi/10.1145/3805622.3810823" target="_blank" rel="noopener">Paper</a>
         <details class="pub-cite">
           <summary> BibTeX </summary>
-<pre>@inproceedings{mo2026reci,
+<pre>@inproceedings{mo2026retrieval,
   title={Retrieval-Guided Contextual Inference for Training-Free Video Anomaly Detection in Low-Light Scenarios},
   author={Mo, Mengjingcheng and Zheng, Jiankang and Leng, Jiaxu and Gao, Xinbo},
-  booktitle={International Conference on Multimedia Retrieval},
+  booktitle={Proceedings of the 2026 International Conference on Multimedia Retrieval},
+  pages={930--939},
   year={2026}
 }</pre>
         </details>
@@ -194,6 +186,7 @@ Feel free to reach out if you are interested in research discussion or collabora
       <span class="pub-list-title">Retrieval-Guided Contextual Inference for Training-Free Video Anomaly Detection in Low-Light Scenarios</span><br>
       <span class="pub-list-authors">Mengjingcheng Mo, <strong>Jiankang Zheng</strong> (second author), Jiaxu Leng&dagger;, and Xinbo Gao.</span>
       <span class="pub-list-note">CCF-B.</span>
+      <span class="pub-list-links"><a href="https://dl.acm.org/doi/10.1145/3805622.3810823" target="_blank" rel="noopener">Paper</a></span>
     </li>
     <li>
       <span class="pub-list-badge">IEEE TPAMI 2026</span>
