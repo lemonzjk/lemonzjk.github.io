@@ -86,11 +86,11 @@ Feel free to reach out if you are interested in research discussion or collabora
 
 <div id="core-publications" class="publication-view" data-publication-view="core">
 <div class="publication-card featured" data-category="all">
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="assets/paper_imgs/icml26-lrpo.png" alt="LRPO overview" loading="lazy" decoding="async" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+  <div class="pub-card-layout">
+    <div class="pub-media-rotator pub-card-media" data-interval="4000">
+      <img class="pub-card-image" src="assets/paper_imgs/icml26-lrpo.png" alt="LRPO overview" loading="lazy" decoding="async">
     </div>
-    <div>
+    <div class="pub-card-content">
       <strong>Linguistic Relative Policy Optimization for Video Anomaly Reasoning</strong><br>
       <i style="font-size: 13px;">
         Jiaxu Leng, <strong>Jiankang Zheng</strong> (student first author), Mengjingcheng Mo, Zhanjie Wu, Haosheng Chen, Ji Gan, and Xinbo Gao&dagger;.
@@ -116,11 +116,11 @@ Feel free to reach out if you are interested in research discussion or collabora
 </div>
 
 <div class="publication-card featured" data-category="all">
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="assets/paper_imgs/tmm-ughr.png" alt="Uncertainty-guided hierarchical retrieval" loading="lazy" decoding="async" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+  <div class="pub-card-layout">
+    <div class="pub-media-rotator pub-card-media" data-interval="4000">
+      <img class="pub-card-image" src="assets/paper_imgs/tmm-ughr.png" alt="Uncertainty-guided hierarchical retrieval" loading="lazy" decoding="async">
     </div>
-    <div>
+    <div class="pub-card-content">
       <strong>Training-Free Video Anomaly Detection via Uncertainty-Guided Hierarchical Retrieval with Vision-Language Models</strong><br>
       <i style="font-size: 13px;">
         <strong>Jiankang Zheng</strong> (first author), Mengjingcheng Mo*, Jiaxu Leng, Mingpi Tan, Zhanjie Wu, Ji Gan, Haosheng Chen, and Xinbo Gao.
@@ -136,11 +136,11 @@ Feel free to reach out if you are interested in research discussion or collabora
 </div>
 
 <div class="publication-card featured" data-category="all">
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="assets/paper_imgs/icmr26-reci.png" alt="Low-light contextual inference" loading="lazy" decoding="async" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+  <div class="pub-card-layout">
+    <div class="pub-media-rotator pub-card-media" data-interval="4000">
+      <img class="pub-card-image" src="assets/paper_imgs/icmr26-reci.png" alt="Low-light contextual inference" loading="lazy" decoding="async">
     </div>
-    <div>
+    <div class="pub-card-content">
       <strong>Retrieval-Guided Contextual Inference for Training-Free Video Anomaly Detection in Low-Light Scenarios</strong><br>
       <i style="font-size: 13px;">
         Mengjingcheng Mo, <strong>Jiankang Zheng</strong> (second author), Jiaxu Leng&dagger;, and Xinbo Gao.
@@ -211,11 +211,11 @@ Feel free to reach out if you are interested in research discussion or collabora
 
 <h2 id="projects">Projects</h2>
 <div class="project-card" data-category="project">
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="/assets/project_imgs/garden.png" alt="GARDEN smart sanitation model overview" loading="lazy" decoding="async" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+  <div class="pub-card-layout">
+    <div class="pub-media-rotator pub-card-media" data-interval="4000">
+      <img class="pub-card-image" src="/assets/project_imgs/garden.png" alt="GARDEN smart sanitation model overview" loading="lazy" decoding="async">
     </div>
-    <div>
+    <div class="pub-card-content">
       <strong>GARDEN Smart Sanitation Foundation Model</strong><br>
       <i style="font-size: 13px;">Chongqing Major AI Project, 10 million RMB, 2023.01 - 2026.12.</i><br>
       This project targets urban sanitation scenarios and develops GARDEN, an intelligent sanitation foundation model integrating environmental perception, risk reasoning, and disposal decision-making.
