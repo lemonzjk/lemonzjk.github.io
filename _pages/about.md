@@ -99,6 +99,9 @@ Feel free to reach out if you are interested in research discussion or collabora
       UGHR evaluates discriminative uncertainty and retrieves high-confidence normal/abnormal references from short-term, scene, and global memories to strengthen frozen VLMs under weak visual evidence.
       <br>
       <b><i style="color:#83a1c7;">IEEE TMM · Under Revision · CCF-A / CAS Zone 1 Top</i></b>
+      <div class="pub-links">
+        <a class="pub-link" href="https://github.com/lemonzjk/UGHR" target="_blank" rel="noopener">Code</a>
+      </div>
     </div>
   </div>
 </div>
@@ -135,6 +138,7 @@ Feel free to reach out if you are interested in research discussion or collabora
       <span class="pub-list-title">Training-Free Video Anomaly Detection via Uncertainty-Guided Hierarchical Retrieval with Vision-Language Models</span><br>
       <span class="pub-list-authors"><strong>Jiankang Zheng</strong> (first author), Mengjingcheng Mo*, Jiaxu Leng, Mingpi Tan, Zhanjie Wu, Ji Gan, Haosheng Chen, and Xinbo Gao.</span>
       <span class="pub-list-note">Under Revision; CCF-A; CAS Zone 1 Top.</span>
+      <span class="pub-list-links"><a href="https://github.com/lemonzjk/UGHR" target="_blank" rel="noopener">Code</a></span>
     </li>
     <li>
       <span class="pub-list-badge">ICMR 2026</span>

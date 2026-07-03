@@ -95,6 +95,9 @@ stylesheets:
       UGHR 评估当前片段的判别不确定性，并从短时记忆、场景记忆和全局记忆中逐级检索高置信正常/异常参考样例，以增强冻结 VLM 在弱视觉线索下的异常判断能力。
       <br>
       <b><i style="color:#83a1c7;">IEEE TMM · Under Revision · CCF-A / 中科院一区 Top</i></b>
+      <div class="pub-links">
+        <a class="pub-link" href="https://github.com/lemonzjk/UGHR" target="_blank" rel="noopener">代码</a>
+      </div>
     </div>
   </div>
 </div>
@@ -131,6 +134,7 @@ stylesheets:
       <span class="pub-list-title">Training-Free Video Anomaly Detection via Uncertainty-Guided Hierarchical Retrieval with Vision-Language Models</span><br>
       <span class="pub-list-authors"><strong>Jiankang Zheng</strong>（第一作者）, Mengjingcheng Mo*, Jiaxu Leng, Mingpi Tan, Zhanjie Wu, Ji Gan, Haosheng Chen, and Xinbo Gao.</span>
       <span class="pub-list-note">Under Revision; CCF-A; 中科院一区 Top.</span>
+      <span class="pub-list-links"><a href="https://github.com/lemonzjk/UGHR" target="_blank" rel="noopener">代码</a></span>
     </li>
     <li>
       <span class="pub-list-badge">ICMR 2026</span>
