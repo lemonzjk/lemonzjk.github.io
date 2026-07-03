@@ -95,7 +95,8 @@ stylesheets:
       <br>
       <b><i style="color:#83a1c7;">ICML 2026 · CCF-A</i></b>
       <div class="pub-links">
-        <a class="pub-link" href="https://arxiv.org/abs/2607.00654" target="_blank" rel="noopener">Paper</a>
+        <a class="pub-link" href="https://arxiv.org/abs/2607.00654" target="_blank" rel="noopener">论文</a>
+        <a class="pub-link" href="https://icml.cc/virtual/2026/poster/64285" target="_blank" rel="noopener">Poster</a>
         <details class="pub-cite">
           <summary> BibTeX </summary>
 <pre>@inproceedings{leng2026lrpo,
@@ -168,7 +169,7 @@ stylesheets:
       <span class="pub-list-title">Linguistic Relative Policy Optimization for Video Anomaly Reasoning</span><br>
       <span class="pub-list-authors">Jiaxu Leng, <strong>Jiankang Zheng</strong>（学生一作）, Mengjingcheng Mo, Zhanjie Wu, Haosheng Chen, Ji Gan, and Xinbo Gao&dagger;.</span>
       <span class="pub-list-note">CCF-A.</span>
-      <span class="pub-list-links"><a href="https://arxiv.org/abs/2607.00654" target="_blank" rel="noopener">Paper</a></span>
+      <span class="pub-list-links"><a href="https://arxiv.org/abs/2607.00654" target="_blank" rel="noopener">论文</a><a href="https://icml.cc/virtual/2026/poster/64285" target="_blank" rel="noopener">Poster</a></span>
     </li>
     <li>
       <span class="pub-list-badge">IEEE TMM</span>
