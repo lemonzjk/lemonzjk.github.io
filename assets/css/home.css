@@ -665,7 +665,14 @@
         }
 
         .pub-card-media {
+            aspect-ratio: auto;
             flex-basis: auto;
+            width: 100%;
+        }
+
+        .pub-card-image,
+        .pub-card-media > img {
+            height: auto;
             width: 100%;
         }
 
