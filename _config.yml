@@ -6,7 +6,7 @@ description              : &description "Academic homepage of Jiankang Zheng, M.
 url                      : "https://lemonzjk.github.io"
 baseurl                  : ""
 repository               : "lemonzjk/lemonzjk.github.io"
-asset_version            : "20260703-status-polish"
+asset_version            : "20260703-cqupt-link"
 
 author:
   avatar           : "/assets/avatar-ai-selected.png"
@@ -22,6 +22,7 @@ author:
   employer_zh      : "重庆邮电大学"
   employer_full    : "Chongqing University of Posts and Telecommunications"
   employer_full_zh : "重庆邮电大学"
+  employer_url     : "https://www.cqupt.edu.cn/"
   uri              : "https://blog.csdn.net/lemonzjk"
   email            : "gentlebrozjk@gmail.com"
   wechat           : "18974630774"
