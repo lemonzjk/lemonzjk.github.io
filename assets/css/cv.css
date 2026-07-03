@@ -375,7 +375,7 @@
   }
 }
 
-@media (max-width: 760px) {
+@media screen and (max-width: 760px) {
   .cv-page {
     padding: 18px 10px 34px;
   }
@@ -425,7 +425,7 @@
   }
 }
 
-@media (max-width: 460px) {
+@media screen and (max-width: 460px) {
   .cv-name {
     font-size: 18pt;
   }
@@ -465,5 +465,25 @@
     box-shadow: none;
     min-height: 0;
     padding: 0;
+  }
+
+  .cv-header {
+    min-height: 1.12in;
+    position: relative;
+    text-align: center;
+  }
+
+  .cv-header-main {
+    padding: 0 0.95in 0 0.2in;
+  }
+
+  .cv-photo {
+    height: 1.12in;
+    margin-bottom: 0;
+    object-fit: cover;
+    position: absolute;
+    right: 0.08in;
+    top: 0;
+    width: 0.87in;
   }
 }
