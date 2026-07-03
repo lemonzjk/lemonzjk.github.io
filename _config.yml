@@ -1,12 +1,12 @@
 locale                   : "en-US"
 title                    : "Jiankang Zheng"
 title_separator          : "-"
-name                     : "Jiankang Zheng"
-description              : &description "Academic homepage of Jiankang Zheng, M.S. student at CQUPT working on Video Anomaly Understanding, Multimodal Large Models, Agents, and Embodied AI."
+name                     : "Jiankang Zheng 郑健康"
+description              : &description "Academic homepage of Jiankang Zheng (郑健康), M.S. student at CQUPT working on Video Anomaly Understanding, Multimodal Large Models, Agents, and Embodied AI."
 url                      : "https://lemonzjk.github.io"
 baseurl                  : ""
 repository               : "lemonzjk/lemonzjk.github.io"
-asset_version            : "20260703-cv-print-bg"
+asset_version            : "20260703-basic-seo"
 
 author:
   avatar           : "/assets/avatar-ai-selected.png"
@@ -78,9 +78,12 @@ facebook:
   publisher              :
 og_image                 :
 social:
-  type                   :
-  name                   :
-  links                  : []
+  type                   : "Person"
+  name                   : "Jiankang Zheng 郑健康"
+  links:
+    - "https://scholar.google.com/citations?user=ntH6xVMAAAAJ"
+    - "https://blog.csdn.net/lemonzjk"
+    - "https://github.com/lemonzjk"
 
 analytics:
   provider               : false
@@ -93,6 +96,8 @@ include:
   - files
 
 exclude:
+  - DEPLOY.md
+  - README.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

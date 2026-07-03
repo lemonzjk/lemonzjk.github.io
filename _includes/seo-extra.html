@@ -1,0 +1,48 @@
+{% assign page_lang = page.lang | default: site.locale %}
+{% assign page_description = page.description | default: page.excerpt | default: site.description %}
+{% if page_description %}
+  {% assign page_description = page_description | markdownify | strip_html | strip_newlines | escape_once %}
+  <meta name="description" content="{{ page_description }}">
+  <meta property="og:description" content="{{ page_description }}">
+{% endif %}
+<meta name="author" content="{{ site.name | default: site.title | escape_once }}">
+{% if page.keywords %}
+  <meta name="keywords" content="{{ page.keywords | escape_once }}">
+{% endif %}
+{% if page.translation_url %}
+  <link rel="alternate" hreflang="{{ page_lang | replace: '_', '-' }}" href="{{ page.url | absolute_url | replace: '/index.html', '/' }}">
+  {% if page_lang contains 'zh' %}
+    <link rel="alternate" hreflang="en" href="{{ page.translation_url | absolute_url }}">
+  {% else %}
+    <link rel="alternate" hreflang="zh-CN" href="{{ page.translation_url | absolute_url }}">
+  {% endif %}
+  <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+{% endif %}
+{% if page.permalink == '/' or page.permalink == '/zh/' %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": {{ site.url | append: "/#person" | jsonify }},
+      "name": "Jiankang Zheng",
+      "alternateName": {{ page.aliases | default: "郑健康, Jiankang Zheng, Zheng Jiankang" | jsonify }},
+      "url": {{ site.url | jsonify }},
+      "image": {{ site.author.avatar | absolute_url | jsonify }},
+      "jobTitle": "{% if page_lang contains 'zh' %}硕士研究生；2027 Fall 博士申请者{% else %}M.S. Student; 2027 Fall Ph.D. Applicant{% endif %}",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "Chongqing University of Posts and Telecommunications",
+        "alternateName": "重庆邮电大学",
+        "url": {{ site.author.employer_url | jsonify }}
+      },
+      "knowsAbout": [
+        "Video Anomaly Understanding",
+        "视频异常理解",
+        "Multimodal Large Models",
+        "Agents",
+        "Embodied AI"
+      ],
+      "sameAs": {{ site.social.links | jsonify }}
+    }
+  </script>
+{% endif %}

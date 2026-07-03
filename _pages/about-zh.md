@@ -1,7 +1,14 @@
 ---
+title: "郑健康 Jiankang Zheng"
+description: "郑健康（Jiankang Zheng），重庆邮电大学计算机科学与技术学术型硕士研究生，2027 Fall 博士申请者，研究方向为视频异常理解、多模态大模型、智能体与具身智能。"
+keywords: "郑健康, Jiankang Zheng, 视频异常理解, Video Anomaly Understanding, 重庆邮电大学, CQUPT, 多模态大模型, 博士申请"
 permalink: /zh/
 lang: zh-CN
 translation_url: /
+aliases:
+  - "郑健康"
+  - "Jiankang Zheng"
+  - "Zheng Jiankang"
 author_profile: true
 stylesheets:
   - /assets/css/home.css
