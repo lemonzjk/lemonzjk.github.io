@@ -35,7 +35,7 @@ stylesheets:
 </div>
 
 <div class="home-actions" aria-label="CV shortcuts">
-  <a class="home-action home-action--primary" href="/files/cv-zh.pdf" target="_blank" rel="noopener">Download CV</a>
+  <a class="home-action home-action--primary" href="/files/cv-zh.pdf" target="_blank" rel="noopener">下载中文简历 PDF</a>
   <a class="home-action" href="/cv/">中文简历</a>
   <a class="home-action" href="/cv-en/">English CV</a>
 </div>

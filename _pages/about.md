@@ -38,7 +38,7 @@ Feel free to reach out if you are interested in research discussion or collabora
 </div>
 
 <div class="home-actions" aria-label="CV shortcuts">
-  <a class="home-action home-action--primary" href="/files/cv-zh.pdf" target="_blank" rel="noopener">Download CV</a>
+  <a class="home-action home-action--primary" href="/files/cv-en.pdf" target="_blank" rel="noopener">Download CV</a>
   <a class="home-action" href="/cv/">中文简历</a>
   <a class="home-action" href="/cv-en/">English CV</a>
 </div>

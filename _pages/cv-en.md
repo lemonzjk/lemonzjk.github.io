@@ -11,7 +11,7 @@ stylesheets:
 
 <div class="cv-wrap">
   <div class="cv-toolbar" aria-label="CV actions">
-    <a class="cv-action" href="/files/cv-zh.pdf" target="_blank" rel="noopener">Download Chinese PDF</a>
+    <a class="cv-action" href="/files/cv-en.pdf" target="_blank" rel="noopener">Download English PDF</a>
     <a class="cv-action cv-action--ghost" href="/cv/">中文简历</a>
     <button class="cv-action cv-action--ghost" type="button" onclick="window.print()">Print / Save PDF</button>
   </div>
