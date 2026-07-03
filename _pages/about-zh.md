@@ -27,6 +27,19 @@ stylesheets:
 
 欢迎与我交流科研问题或探讨合作机会。你也可以通过 [Google Scholar](https://scholar.google.com/citations?user=ntH6xVMAAAAJ) 查看我的学术主页，或在 [CSDN](https://blog.csdn.net/lemonzjk) 阅读我的技术笔记。
 
+<div class="research-tags" aria-label="Research interests">
+  <span class="research-tag">Video Anomaly Understanding</span>
+  <span class="research-tag">Multimodal LLMs</span>
+  <span class="research-tag">Agents</span>
+  <span class="research-tag">Embodied AI</span>
+</div>
+
+<div class="home-actions" aria-label="CV shortcuts">
+  <a class="home-action home-action--primary" href="/files/cv-zh.pdf" target="_blank" rel="noopener">Download CV</a>
+  <a class="home-action" href="/cv/">中文简历</a>
+  <a class="home-action" href="/cv-en/">English CV</a>
+</div>
+
 <h2 id="news">动态</h2>
 <div class="news-box">
   <ul class="news-list">
@@ -82,7 +95,16 @@ stylesheets:
       <br>
       <b><i style="color:#83a1c7;">ICML 2026 · CCF-A</i></b>
       <div class="pub-links">
-        <a class="pub-link" href="https://arxiv.org/abs/2607.00654" target="_blank" rel="noopener">论文</a>
+        <a class="pub-link" href="https://arxiv.org/abs/2607.00654" target="_blank" rel="noopener">Paper</a>
+        <details class="pub-cite">
+          <summary> BibTeX </summary>
+<pre>@inproceedings{leng2026lrpo,
+  title={Linguistic Relative Policy Optimization for Video Anomaly Reasoning},
+  author={Leng, Jiaxu and Zheng, Jiankang and Mo, Mengjingcheng and Wu, Zhanjie and Chen, Haosheng and Gan, Ji and Gao, Xinbo},
+  booktitle={International Conference on Machine Learning},
+  year={2026}
+}</pre>
+        </details>
       </div>
     </div>
   </div>
@@ -102,7 +124,17 @@ stylesheets:
       <br>
       <b><i style="color:#83a1c7;">IEEE TMM · Under Revision · CCF-A / 中科院一区 Top</i></b>
       <div class="pub-links">
-        <a class="pub-link" href="https://github.com/lemonzjk/UGHR" target="_blank" rel="noopener">代码</a>
+        <a class="pub-link" href="https://github.com/lemonzjk/UGHR" target="_blank" rel="noopener">Code</a>
+        <details class="pub-cite">
+          <summary> BibTeX </summary>
+<pre>@article{zheng2026ughr,
+  title={Training-Free Video Anomaly Detection via Uncertainty-Guided Hierarchical Retrieval with Vision-Language Models},
+  author={Zheng, Jiankang and Mo, Mengjingcheng and Leng, Jiaxu and Tan, Mingpi and Wu, Zhanjie and Gan, Ji and Chen, Haosheng and Gao, Xinbo},
+  journal={IEEE Transactions on Multimedia},
+  year={2026},
+  note={Under revision}
+}</pre>
+        </details>
       </div>
     </div>
   </div>
@@ -121,6 +153,17 @@ stylesheets:
       ReCI 通过局部片段描述与全局场景摘要构建语义上下文，并检索高置信参考样例，从而提升低光照场景下视频异常检测的鲁棒性。
       <br>
       <b><i style="color:#83a1c7;">ICMR 2026 · CCF-B</i></b>
+      <div class="pub-links">
+        <details class="pub-cite">
+          <summary> BibTeX </summary>
+<pre>@inproceedings{mo2026reci,
+  title={Retrieval-Guided Contextual Inference for Training-Free Video Anomaly Detection in Low-Light Scenarios},
+  author={Mo, Mengjingcheng and Zheng, Jiankang and Leng, Jiaxu and Gao, Xinbo},
+  booktitle={International Conference on Multimedia Retrieval},
+  year={2026}
+}</pre>
+        </details>
+      </div>
     </div>
   </div>
 </div>
@@ -133,14 +176,14 @@ stylesheets:
       <span class="pub-list-title">Linguistic Relative Policy Optimization for Video Anomaly Reasoning</span><br>
       <span class="pub-list-authors">Jiaxu Leng, <strong>Jiankang Zheng</strong>（学生一作）, Mengjingcheng Mo, Zhanjie Wu, Haosheng Chen, Ji Gan, and Xinbo Gao&dagger;.</span>
       <span class="pub-list-note">CCF-A.</span>
-      <span class="pub-list-links"><a href="https://arxiv.org/abs/2607.00654" target="_blank" rel="noopener">论文</a></span>
+      <span class="pub-list-links"><a href="https://arxiv.org/abs/2607.00654" target="_blank" rel="noopener">Paper</a></span>
     </li>
     <li>
       <span class="pub-list-badge">IEEE TMM</span>
       <span class="pub-list-title">Training-Free Video Anomaly Detection via Uncertainty-Guided Hierarchical Retrieval with Vision-Language Models</span><br>
       <span class="pub-list-authors"><strong>Jiankang Zheng</strong>（第一作者）, Mengjingcheng Mo*, Jiaxu Leng, Mingpi Tan, Zhanjie Wu, Ji Gan, Haosheng Chen, and Xinbo Gao.</span>
       <span class="pub-list-note">Under Revision; CCF-A; 中科院一区 Top.</span>
-      <span class="pub-list-links"><a href="https://github.com/lemonzjk/UGHR" target="_blank" rel="noopener">代码</a></span>
+      <span class="pub-list-links"><a href="https://github.com/lemonzjk/UGHR" target="_blank" rel="noopener">Code</a></span>
     </li>
     <li>
       <span class="pub-list-badge">ICMR 2026</span>
@@ -153,14 +196,14 @@ stylesheets:
       <span class="pub-list-title">PiercingEye: Dual-Space Video Violence Detection with Hyperbolic Vision-Language Guidance</span><br>
       <span class="pub-list-authors">Jiaxu Leng, Zhanjie Wu, Mingpi Tan, Mengjingcheng Mo, <strong>Jiankang Zheng</strong>, Qingqing Li, Ji Gan, and Xinbo Gao&dagger;.</span>
       <span class="pub-list-note">CCF-A; 中科院一区 Top.</span>
-      <span class="pub-list-links"><a href="https://arxiv.org/abs/2504.18866" target="_blank" rel="noopener">论文</a></span>
+      <span class="pub-list-links"><a href="https://arxiv.org/abs/2504.18866" target="_blank" rel="noopener">Paper</a></span>
     </li>
     <li>
       <span class="pub-list-badge">NeurIPS D&amp;B 2025</span>
       <span class="pub-list-title">A2Seek: Towards Reasoning-Centric Benchmark for Aerial Anomaly Understanding</span><br>
       <span class="pub-list-authors">Mengjingcheng Mo, Xinyang Tong, Mingpi Tan, Jiaxu Leng&dagger;, <strong>Jiankang Zheng</strong>, Yiran Liu, Haosheng Chen, Ji Gan, Weisheng Li, and Xinbo Gao&dagger;.</span>
       <span class="pub-list-note">CCF-A.</span>
-      <span class="pub-list-links"><a href="https://arxiv.org/abs/2505.21962" target="_blank" rel="noopener">论文</a><a href="https://2-mo.github.io/A2Seek/" target="_blank" rel="noopener">项目</a></span>
+      <span class="pub-list-links"><a href="https://arxiv.org/abs/2505.21962" target="_blank" rel="noopener">Paper</a><a href="https://2-mo.github.io/A2Seek/" target="_blank" rel="noopener">Project</a></span>
     </li>
   </ul>
 </div>

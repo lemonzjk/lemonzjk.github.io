@@ -161,6 +161,69 @@
       font-size: 0.88rem;
       line-height: 1.35;
     }
+
+    .research-tags {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: -2px 0 14px;
+    }
+
+    .research-tag {
+      background: rgba(131, 161, 199, 0.14);
+      border: 1px solid rgba(131, 161, 199, 0.32);
+      border-radius: 999px;
+      color: #4c6a94;
+      display: inline-flex;
+      font-size: 0.78rem;
+      font-weight: 650;
+      line-height: 1.25;
+      padding: 5px 10px;
+      white-space: nowrap;
+    }
+
+    .home-actions {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin: 8px 0 26px;
+    }
+
+    .home-action {
+      align-items: center;
+      background: #fff;
+      border: 1px solid rgba(202, 111, 111, 0.36);
+      border-radius: 999px;
+      color: #b95f3d !important;
+      display: inline-flex;
+      font-size: 0.84rem;
+      font-weight: 700;
+      line-height: 1.2;
+      min-height: 34px;
+      padding: 7px 13px;
+      text-decoration: none !important;
+    }
+
+    .home-action:hover {
+      background: rgba(202, 111, 111, 0.09);
+      color: #9f4f2d !important;
+      text-decoration: none !important;
+    }
+
+    .home-action--primary {
+      background: #ca6f6f;
+      border-color: #ca6f6f;
+      color: #fff !important;
+      box-shadow: 0 6px 14px rgba(202, 111, 111, 0.18);
+    }
+
+    .home-action--primary:hover {
+      background: #b95f5f;
+      border-color: #b95f5f;
+      color: #fff !important;
+    }
   
     .experience-card {
         display: flex;
@@ -273,6 +336,7 @@
     }
 
     .pub-link,
+    .pub-cite > summary,
     .pub-list-links a {
         border: 1px solid rgba(202, 111, 111, 0.4);
         border-radius: 999px;
@@ -286,9 +350,53 @@
     }
 
     .pub-link:hover,
+    .pub-cite > summary:hover,
     .pub-list-links a:hover {
         background: rgba(202, 111, 111, 0.09);
         color: #9f4f2d !important;
+    }
+
+    .pub-cite {
+        display: inline-flex;
+        max-width: 100%;
+        position: relative;
+    }
+
+    .pub-cite > summary {
+        cursor: pointer;
+        list-style: none;
+        user-select: none;
+    }
+
+    .pub-cite > summary::-webkit-details-marker {
+        display: none;
+    }
+
+    .pub-cite[open] {
+        display: block;
+        flex-basis: 100%;
+        margin-top: 2px;
+        width: 100%;
+    }
+
+    .pub-cite[open] > summary {
+        margin-bottom: 7px;
+        width: max-content;
+    }
+
+    .pub-cite pre {
+        background: rgba(255, 255, 255, 0.82);
+        border: 1px solid rgba(202, 111, 111, 0.18);
+        border-radius: 8px;
+        color: #3f3f46;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+        font-size: 0.72rem;
+        line-height: 1.45;
+        margin: 0;
+        max-width: 100%;
+        overflow-x: auto;
+        padding: 9px 10px;
+        white-space: pre;
     }
     .publication-card:hover {
        
@@ -488,6 +596,27 @@
             font-size: 0.98rem;
         }
 
+        .research-tags {
+            gap: 6px;
+            margin-bottom: 12px;
+        }
+
+        .research-tag {
+            font-size: 0.74rem;
+            padding: 4px 8px;
+        }
+
+        .home-actions {
+            gap: 7px;
+            margin-bottom: 22px;
+        }
+
+        .home-action {
+            flex: 1 1 auto;
+            justify-content: center;
+            min-width: 118px;
+        }
+
         .experience-logo {
             width: 52px;
             height: 52px;
@@ -540,6 +669,10 @@
             display: flex;
             margin-left: 0;
             margin-top: 6px;
+        }
+
+        .pub-cite pre {
+            font-size: 0.66rem;
         }
     }
         body {

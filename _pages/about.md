@@ -30,6 +30,19 @@ I am applying for **2027 Fall Ph.D. programs**. My research focuses on **Video A
 
 Feel free to reach out if you are interested in research discussion or collaboration. You can also find my profile on [Google Scholar](https://scholar.google.com/citations?user=ntH6xVMAAAAJ) and my technical notes on [CSDN](https://blog.csdn.net/lemonzjk).
 
+<div class="research-tags" aria-label="Research interests">
+  <span class="research-tag">Video Anomaly Understanding</span>
+  <span class="research-tag">Multimodal LLMs</span>
+  <span class="research-tag">Agents</span>
+  <span class="research-tag">Embodied AI</span>
+</div>
+
+<div class="home-actions" aria-label="CV shortcuts">
+  <a class="home-action home-action--primary" href="/files/cv-zh.pdf" target="_blank" rel="noopener">Download CV</a>
+  <a class="home-action" href="/cv/">中文简历</a>
+  <a class="home-action" href="/cv-en/">English CV</a>
+</div>
+
 <h2 id="news">News</h2>
 <div class="news-box">
   <ul class="news-list">
@@ -87,6 +100,15 @@ Feel free to reach out if you are interested in research discussion or collabora
       <b><i style="color:#83a1c7;">ICML 2026 · CCF-A</i></b>
       <div class="pub-links">
         <a class="pub-link" href="https://arxiv.org/abs/2607.00654" target="_blank" rel="noopener">Paper</a>
+        <details class="pub-cite">
+          <summary> BibTeX </summary>
+<pre>@inproceedings{leng2026lrpo,
+  title={Linguistic Relative Policy Optimization for Video Anomaly Reasoning},
+  author={Leng, Jiaxu and Zheng, Jiankang and Mo, Mengjingcheng and Wu, Zhanjie and Chen, Haosheng and Gan, Ji and Gao, Xinbo},
+  booktitle={International Conference on Machine Learning},
+  year={2026}
+}</pre>
+        </details>
       </div>
     </div>
   </div>
@@ -107,6 +129,16 @@ Feel free to reach out if you are interested in research discussion or collabora
       <b><i style="color:#83a1c7;">IEEE TMM · Under Revision · CCF-A / CAS Zone 1 Top</i></b>
       <div class="pub-links">
         <a class="pub-link" href="https://github.com/lemonzjk/UGHR" target="_blank" rel="noopener">Code</a>
+        <details class="pub-cite">
+          <summary> BibTeX </summary>
+<pre>@article{zheng2026ughr,
+  title={Training-Free Video Anomaly Detection via Uncertainty-Guided Hierarchical Retrieval with Vision-Language Models},
+  author={Zheng, Jiankang and Mo, Mengjingcheng and Leng, Jiaxu and Tan, Mingpi and Wu, Zhanjie and Gan, Ji and Chen, Haosheng and Gao, Xinbo},
+  journal={IEEE Transactions on Multimedia},
+  year={2026},
+  note={Under revision}
+}</pre>
+        </details>
       </div>
     </div>
   </div>
@@ -125,6 +157,17 @@ Feel free to reach out if you are interested in research discussion or collabora
       ReCI builds semantic context from local clip descriptions and global scene summaries, then retrieves high-confidence references to improve robustness in low-light anomaly detection.
       <br>
       <b><i style="color:#83a1c7;">ICMR 2026 · CCF-B</i></b>
+      <div class="pub-links">
+        <details class="pub-cite">
+          <summary> BibTeX </summary>
+<pre>@inproceedings{mo2026reci,
+  title={Retrieval-Guided Contextual Inference for Training-Free Video Anomaly Detection in Low-Light Scenarios},
+  author={Mo, Mengjingcheng and Zheng, Jiankang and Leng, Jiaxu and Gao, Xinbo},
+  booktitle={International Conference on Multimedia Retrieval},
+  year={2026}
+}</pre>
+        </details>
+      </div>
     </div>
   </div>
 </div>

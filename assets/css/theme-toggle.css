@@ -149,6 +149,36 @@ html[data-theme="dark"] .status-banner__meta {
   color: #b8c0ca;
 }
 
+html[data-theme="dark"] .research-tag {
+  background: rgba(131, 161, 199, 0.14);
+  border-color: rgba(131, 161, 199, 0.34);
+  color: #b8cff0;
+}
+
+html[data-theme="dark"] .home-action {
+  background: #171b21;
+  border-color: rgba(211, 124, 124, 0.36);
+  color: #f0b3b3 !important;
+}
+
+html[data-theme="dark"] .home-action:hover {
+  background: rgba(211, 124, 124, 0.13);
+  color: #ffd2d2 !important;
+}
+
+html[data-theme="dark"] .home-action--primary {
+  background: #d37c7c;
+  border-color: #d37c7c;
+  color: #111418 !important;
+  box-shadow: none;
+}
+
+html[data-theme="dark"] .home-action--primary:hover {
+  background: #e28b8b;
+  border-color: #e28b8b;
+  color: #111418 !important;
+}
+
 html[data-theme="dark"] .publication-card,
 html[data-theme="dark"] .project-card {
   background: #171b21;
@@ -197,15 +227,23 @@ html[data-theme="dark"] .pub-list-badge {
 }
 
 html[data-theme="dark"] .pub-link,
+html[data-theme="dark"] .pub-cite > summary,
 html[data-theme="dark"] .pub-list-links a {
   border-color: rgba(211, 124, 124, 0.42);
   color: #f0b3b3 !important;
 }
 
 html[data-theme="dark"] .pub-link:hover,
+html[data-theme="dark"] .pub-cite > summary:hover,
 html[data-theme="dark"] .pub-list-links a:hover {
   background: rgba(211, 124, 124, 0.13);
   color: #ffd2d2 !important;
+}
+
+html[data-theme="dark"] .pub-cite pre {
+  background: rgba(15, 18, 22, 0.9);
+  border-color: rgba(211, 124, 124, 0.26);
+  color: #d8dde3;
 }
 
 html[data-theme="dark"] .page__footer {

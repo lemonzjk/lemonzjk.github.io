@@ -442,7 +442,20 @@
     size: A4;
   }
 
+  html,
+  body {
+    background: #fff !important;
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+  }
+
+  body {
+    padding: 0 !important;
+  }
+
   .masthead,
+  .back-to-top,
   .page__footer,
   .cv-toolbar {
     display: none !important;
@@ -450,8 +463,22 @@
 
   .cv-page {
     background: #fff;
+    display: block;
+    height: auto !important;
+    margin: 0 !important;
     min-height: 0;
-    padding: 0;
+    overflow: visible !important;
+    padding: 0 !important;
+  }
+
+  .cv-wrap {
+    align-items: stretch;
+    display: block;
+    gap: 0;
+    height: auto !important;
+    margin: 0;
+    min-height: 0 !important;
+    overflow: visible !important;
   }
 
   .cv-wrap,
@@ -461,10 +488,24 @@
   }
 
   .cv-sheet {
+    animation: none;
     border: 0;
     box-shadow: none;
+    display: block;
+    height: auto !important;
+    margin: 0;
     min-height: 0;
+    overflow: visible !important;
     padding: 0;
+    page-break-after: auto;
+    break-after: auto;
+  }
+
+  .cv-sheet::after,
+  .cv-wrap::after,
+  .cv-page::after {
+    content: none !important;
+    display: none !important;
   }
 
   .cv-header {
