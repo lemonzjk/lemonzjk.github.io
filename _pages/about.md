@@ -13,14 +13,20 @@ redirect_from:
 <h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px" alt=""> I am Jiankang Zheng!</h1>
 
 <div class="status-banner status-banner--apply" aria-label="Ph.D. application status">
-  <span class="status-banner__badge">Ph.D. Applicant</span>
-  <span class="status-banner__main">Actively applying for 2027 Fall Ph.D. programs</span>
-  <span class="status-banner__meta">Research focus: Video Anomaly Understanding (VAU)</span>
+  <span class="status-banner__icon" aria-hidden="true">🎓</span>
+  <span class="status-banner__body">
+    <span class="status-banner__topline">
+      <span class="status-banner__badge">Ph.D. Applicant</span>
+      <span class="status-banner__season">2027 Fall</span>
+    </span>
+    <span class="status-banner__main">Actively applying for Ph.D. programs</span>
+    <span class="status-banner__meta"><span aria-hidden="true">✦</span> Research focus: Video Anomaly Understanding (VAU)</span>
+  </span>
 </div>
 
 Hi! I am an academic M.S. student in Computer Science and Technology at Chongqing University of Posts and Telecommunications, advised by Associate Professor Jiaxu Leng in Professor Xinbo Gao's team.
 
-I am applying for **2027 Fall Ph.D. programs**. My research focuses on **Video Anomaly Understanding (VAU)**, with broader interests in multimodal large models, agents, embodied intelligence, vision-language reasoning, and training-free video anomaly detection.
+I am applying for **2027 Fall Ph.D. programs**. My research focuses on **Video Anomaly Understanding (VAU)**, with broader interests in **multimodal large models, agents, and embodied intelligence**.
 
 Feel free to reach out if you are interested in research discussion or collaboration. You can also find my profile on [Google Scholar](https://scholar.google.com/citations?user=ntH6xVMAAAAJ) and my technical notes on [CSDN](https://blog.csdn.net/lemonzjk).
 

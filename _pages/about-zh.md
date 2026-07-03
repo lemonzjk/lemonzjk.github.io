@@ -10,14 +10,20 @@ stylesheets:
 <h1 class="main-heading main-heading--zh">你好 <img src="/images/Hi.gif" width="40px" alt=""> 我是郑健康！</h1>
 
 <div class="status-banner status-banner--apply" aria-label="博士申请状态">
-  <span class="status-banner__badge">Ph.D. Applicant</span>
-  <span class="status-banner__main">正在申请 2027 Fall 博士研究生项目</span>
-  <span class="status-banner__meta">研究方向：视频异常理解（VAU）</span>
+  <span class="status-banner__icon" aria-hidden="true">🎓</span>
+  <span class="status-banner__body">
+    <span class="status-banner__topline">
+      <span class="status-banner__badge">Ph.D. Applicant</span>
+      <span class="status-banner__season">2027 Fall</span>
+    </span>
+    <span class="status-banner__main">正在申请博士研究生项目</span>
+    <span class="status-banner__meta"><span aria-hidden="true">✦</span> 研究方向：视频异常理解（VAU）</span>
+  </span>
 </div>
 
 你好！我是重庆邮电大学计算机科学与技术专业学术型硕士研究生，导师为冷佳旭副教授，隶属于高新波教授团队。
 
-我正在申请 **2027 Fall 博士研究生项目**。我的研究方向聚焦于 **视频异常理解（VAU，Video Anomaly Understanding）**，同时也关注多模态大模型、智能体、具身智能、视觉语言推理以及免训练视频异常检测等方向。
+我正在申请 **2027 Fall 博士研究生项目**。我的研究方向聚焦于 **视频异常理解（VAU，Video Anomaly Understanding）**，同时也关注 **多模态大模型、智能体和具身智能**。
 
 欢迎与我交流科研问题或探讨合作机会。你也可以通过 [Google Scholar](https://scholar.google.com/citations?user=ntH6xVMAAAAJ) 查看我的学术主页，或在 [CSDN](https://blog.csdn.net/lemonzjk) 阅读我的技术笔记。
 

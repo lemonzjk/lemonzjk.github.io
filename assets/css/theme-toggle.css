@@ -110,16 +110,35 @@ html[data-theme="dark"] .experience-card {
 }
 
 html[data-theme="dark"] .status-banner {
-  background: #201c20;
+  background: linear-gradient(135deg, #201c20 0%, #171b21 72%);
   border-color: rgba(226, 139, 139, 0.38);
-  border-left-color: #d37c7c;
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
   color: #d8dde3;
+}
+
+html[data-theme="dark"] .status-banner::before {
+  background: #d37c7c;
+}
+
+html[data-theme="dark"] .status-banner::after {
+  color: rgba(211, 124, 124, 0.14);
+}
+
+html[data-theme="dark"] .status-banner__icon {
+  background: #242a32;
+  border-color: rgba(211, 124, 124, 0.34);
+  box-shadow: none;
 }
 
 html[data-theme="dark"] .status-banner__badge {
   background: #d37c7c;
   color: #111418;
+}
+
+html[data-theme="dark"] .status-banner__season {
+  background: rgba(131, 161, 199, 0.16);
+  border-color: rgba(131, 161, 199, 0.34);
+  color: #b8cff0;
 }
 
 html[data-theme="dark"] .status-banner__main {
