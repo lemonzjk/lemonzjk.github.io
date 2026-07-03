@@ -83,6 +83,8 @@
   padding: 0.42in 0.52in 0.52in;
   position: relative;
   width: 100%;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
 }
 
 .cv-sheet--zh {
@@ -212,6 +214,8 @@
   font-weight: 700;
   margin: 7px 0 8px;
   padding: 4px 7px;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
 }
 
 .cv-entry {
@@ -499,6 +503,14 @@
     padding: 0;
     page-break-after: auto;
     break-after: auto;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .cv-subhead {
+    background: var(--cv-soft) !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
 
   .cv-sheet::after,
