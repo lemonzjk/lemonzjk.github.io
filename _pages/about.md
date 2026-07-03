@@ -99,10 +99,10 @@ Feel free to reach out if you are interested in research discussion or collabora
       <br>
       <b><i style="color:#83a1c7;">ICML 2026 · CCF-A</i></b>
       <div class="pub-links">
-        <a class="pub-link" href="https://arxiv.org/abs/2607.00654" target="_blank" rel="noopener">Paper</a>
-        <a class="pub-link" href="https://icml.cc/virtual/2026/poster/64285" target="_blank" rel="noopener">Poster</a>
+        <a class="pub-link pub-link--paper" href="https://arxiv.org/abs/2607.00654" target="_blank" rel="noopener"><i class="fas fa-file-pdf pub-link__icon" aria-hidden="true"></i><span>Paper</span></a>
+        <a class="pub-link pub-link--poster" href="https://icml.cc/virtual/2026/poster/64285" target="_blank" rel="noopener"><i class="fas fa-panorama pub-link__icon" aria-hidden="true"></i><span>Poster</span></a>
         <details class="pub-cite">
-          <summary> BibTeX </summary>
+          <summary class="pub-link pub-link--bib"><i class="fas fa-quote-left pub-link__icon" aria-hidden="true"></i><span>BibTeX</span></summary>
 <pre>@inproceedings{leng2026lrpo,
   title={Linguistic Relative Policy Optimization for Video Anomaly Reasoning},
   author={Leng, Jiaxu and Zheng, Jiankang and Mo, Mengjingcheng and Wu, Zhanjie and Chen, Haosheng and Gan, Ji and Gao, Xinbo},
@@ -129,7 +129,7 @@ Feel free to reach out if you are interested in research discussion or collabora
       <br>
       <b><i style="color:#83a1c7;">IEEE TMM · Under Revision · CCF-A / CAS Zone 1 Top</i></b>
       <div class="pub-links">
-        <a class="pub-link" href="https://github.com/lemonzjk/UGHR" target="_blank" rel="noopener">Code</a>
+        <a class="pub-link pub-link--code" href="https://github.com/lemonzjk/UGHR" target="_blank" rel="noopener"><i class="fab fa-github pub-link__icon" aria-hidden="true"></i><span>Code</span></a>
       </div>
     </div>
   </div>
@@ -149,9 +149,9 @@ Feel free to reach out if you are interested in research discussion or collabora
       <br>
       <b><i style="color:#83a1c7;">ICMR 2026 · CCF-B</i></b>
       <div class="pub-links">
-        <a class="pub-link" href="https://dl.acm.org/doi/10.1145/3805622.3810823" target="_blank" rel="noopener">Paper</a>
+        <a class="pub-link pub-link--paper" href="https://dl.acm.org/doi/10.1145/3805622.3810823" target="_blank" rel="noopener"><i class="fas fa-file-pdf pub-link__icon" aria-hidden="true"></i><span>Paper</span></a>
         <details class="pub-cite">
-          <summary> BibTeX </summary>
+          <summary class="pub-link pub-link--bib"><i class="fas fa-quote-left pub-link__icon" aria-hidden="true"></i><span>BibTeX</span></summary>
 <pre>@inproceedings{mo2026retrieval,
   title={Retrieval-Guided Contextual Inference for Training-Free Video Anomaly Detection in Low-Light Scenarios},
   author={Mo, Mengjingcheng and Zheng, Jiankang and Leng, Jiaxu and Gao, Xinbo},
@@ -173,35 +173,35 @@ Feel free to reach out if you are interested in research discussion or collabora
       <span class="pub-list-title">Linguistic Relative Policy Optimization for Video Anomaly Reasoning</span><br>
       <span class="pub-list-authors">Jiaxu Leng, <strong>Jiankang Zheng</strong> (student first author), Mengjingcheng Mo, Zhanjie Wu, Haosheng Chen, Ji Gan, and Xinbo Gao&dagger;.</span>
       <span class="pub-list-note">CCF-A.</span>
-      <span class="pub-list-links"><a href="https://arxiv.org/abs/2607.00654" target="_blank" rel="noopener">Paper</a><a href="https://icml.cc/virtual/2026/poster/64285" target="_blank" rel="noopener">Poster</a></span>
+      <span class="pub-list-links"><a class="pub-link--paper" href="https://arxiv.org/abs/2607.00654" target="_blank" rel="noopener"><i class="fas fa-file-pdf pub-link__icon" aria-hidden="true"></i><span>Paper</span></a><a class="pub-link--poster" href="https://icml.cc/virtual/2026/poster/64285" target="_blank" rel="noopener"><i class="fas fa-panorama pub-link__icon" aria-hidden="true"></i><span>Poster</span></a></span>
     </li>
     <li>
       <span class="pub-list-badge">IEEE TMM</span>
       <span class="pub-list-title">Training-Free Video Anomaly Detection via Uncertainty-Guided Hierarchical Retrieval with Vision-Language Models</span><br>
       <span class="pub-list-authors"><strong>Jiankang Zheng</strong> (first author), Mengjingcheng Mo*, Jiaxu Leng, Mingpi Tan, Zhanjie Wu, Ji Gan, Haosheng Chen, and Xinbo Gao.</span>
       <span class="pub-list-note">Under Revision; CCF-A; CAS Zone 1 Top.</span>
-      <span class="pub-list-links"><a href="https://github.com/lemonzjk/UGHR" target="_blank" rel="noopener">Code</a></span>
+      <span class="pub-list-links"><a class="pub-link--code" href="https://github.com/lemonzjk/UGHR" target="_blank" rel="noopener"><i class="fab fa-github pub-link__icon" aria-hidden="true"></i><span>Code</span></a></span>
     </li>
     <li>
       <span class="pub-list-badge">ICMR 2026</span>
       <span class="pub-list-title">Retrieval-Guided Contextual Inference for Training-Free Video Anomaly Detection in Low-Light Scenarios</span><br>
       <span class="pub-list-authors">Mengjingcheng Mo, <strong>Jiankang Zheng</strong> (second author), Jiaxu Leng&dagger;, and Xinbo Gao.</span>
       <span class="pub-list-note">CCF-B.</span>
-      <span class="pub-list-links"><a href="https://dl.acm.org/doi/10.1145/3805622.3810823" target="_blank" rel="noopener">Paper</a></span>
+      <span class="pub-list-links"><a class="pub-link--paper" href="https://dl.acm.org/doi/10.1145/3805622.3810823" target="_blank" rel="noopener"><i class="fas fa-file-pdf pub-link__icon" aria-hidden="true"></i><span>Paper</span></a></span>
     </li>
     <li>
       <span class="pub-list-badge">IEEE TPAMI 2026</span>
       <span class="pub-list-title">PiercingEye: Dual-Space Video Violence Detection with Hyperbolic Vision-Language Guidance</span><br>
       <span class="pub-list-authors">Jiaxu Leng, Zhanjie Wu, Mingpi Tan, Mengjingcheng Mo, <strong>Jiankang Zheng</strong>, Qingqing Li, Ji Gan, and Xinbo Gao&dagger;.</span>
       <span class="pub-list-note">CCF-A; CAS Zone 1 Top.</span>
-      <span class="pub-list-links"><a href="https://arxiv.org/abs/2504.18866" target="_blank" rel="noopener">Paper</a></span>
+      <span class="pub-list-links"><a class="pub-link--paper" href="https://arxiv.org/abs/2504.18866" target="_blank" rel="noopener"><i class="fas fa-file-pdf pub-link__icon" aria-hidden="true"></i><span>Paper</span></a></span>
     </li>
     <li>
       <span class="pub-list-badge">NeurIPS D&amp;B 2025</span>
       <span class="pub-list-title">A2Seek: Towards Reasoning-Centric Benchmark for Aerial Anomaly Understanding</span><br>
       <span class="pub-list-authors">Mengjingcheng Mo, Xinyang Tong, Mingpi Tan, Jiaxu Leng&dagger;, <strong>Jiankang Zheng</strong>, Yiran Liu, Haosheng Chen, Ji Gan, Weisheng Li, and Xinbo Gao&dagger;.</span>
       <span class="pub-list-note">CCF-A.</span>
-      <span class="pub-list-links"><a href="https://arxiv.org/abs/2505.21962" target="_blank" rel="noopener">Paper</a><a href="https://2-mo.github.io/A2Seek/" target="_blank" rel="noopener">Project</a></span>
+      <span class="pub-list-links"><a class="pub-link--paper" href="https://arxiv.org/abs/2505.21962" target="_blank" rel="noopener"><i class="fas fa-file-pdf pub-link__icon" aria-hidden="true"></i><span>Paper</span></a><a class="pub-link--project" href="https://2-mo.github.io/A2Seek/" target="_blank" rel="noopener"><i class="fas fa-diagram-project pub-link__icon" aria-hidden="true"></i><span>Project</span></a></span>
     </li>
   </ul>
 </div>

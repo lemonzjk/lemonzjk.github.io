@@ -229,15 +229,55 @@ html[data-theme="dark"] .pub-list-badge {
 html[data-theme="dark"] .pub-link,
 html[data-theme="dark"] .pub-cite > summary,
 html[data-theme="dark"] .pub-list-links a {
-  border-color: rgba(211, 124, 124, 0.42);
-  color: #f0b3b3 !important;
+  --resource-accent: #d8dde3;
+  --resource-bg: rgba(255, 255, 255, 0.055);
+  --resource-border: rgba(255, 255, 255, 0.14);
+  --resource-hover-bg: rgba(255, 255, 255, 0.09);
 }
 
 html[data-theme="dark"] .pub-link:hover,
 html[data-theme="dark"] .pub-cite > summary:hover,
 html[data-theme="dark"] .pub-list-links a:hover {
-  background: rgba(211, 124, 124, 0.13);
-  color: #ffd2d2 !important;
+  color: var(--resource-accent) !important;
+}
+
+html[data-theme="dark"] .pub-link__icon {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+html[data-theme="dark"] .pub-link--paper {
+  --resource-accent: #f0b3a7;
+  --resource-bg: rgba(240, 179, 167, 0.1);
+  --resource-border: rgba(240, 179, 167, 0.28);
+  --resource-hover-bg: rgba(240, 179, 167, 0.16);
+}
+
+html[data-theme="dark"] .pub-link--code {
+  --resource-accent: #9fd6bb;
+  --resource-bg: rgba(159, 214, 187, 0.1);
+  --resource-border: rgba(159, 214, 187, 0.28);
+  --resource-hover-bg: rgba(159, 214, 187, 0.16);
+}
+
+html[data-theme="dark"] .pub-link--poster {
+  --resource-accent: #adc8f4;
+  --resource-bg: rgba(173, 200, 244, 0.1);
+  --resource-border: rgba(173, 200, 244, 0.28);
+  --resource-hover-bg: rgba(173, 200, 244, 0.16);
+}
+
+html[data-theme="dark"] .pub-link--bib {
+  --resource-accent: #d0b8ee;
+  --resource-bg: rgba(208, 184, 238, 0.1);
+  --resource-border: rgba(208, 184, 238, 0.28);
+  --resource-hover-bg: rgba(208, 184, 238, 0.16);
+}
+
+html[data-theme="dark"] .pub-link--project {
+  --resource-accent: #e8c48c;
+  --resource-bg: rgba(232, 196, 140, 0.1);
+  --resource-border: rgba(232, 196, 140, 0.28);
+  --resource-hover-bg: rgba(232, 196, 140, 0.16);
 }
 
 html[data-theme="dark"] .pub-cite pre {
