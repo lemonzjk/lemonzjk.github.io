@@ -680,6 +680,10 @@ html[data-accent]:not([data-accent="coral"]) .home-action {
   color: var(--site-accent-ink) !important;
 }
 
+html[data-accent]:not([data-accent="coral"]) .home-action--primary {
+  color: #fff !important;
+}
+
 html[data-accent]:not([data-accent="coral"]) .home-action:hover {
   background: var(--site-accent-soft);
   color: var(--site-accent-hover) !important;
