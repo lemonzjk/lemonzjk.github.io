@@ -425,8 +425,7 @@
     }
 
     .pub-link,
-    .pub-cite > summary,
-    .pub-list-links a {
+    .pub-cite > summary {
         --resource-accent: #b95f3d;
         --resource-bg: rgba(185, 95, 61, 0.08);
         --resource-border: rgba(185, 95, 61, 0.28);
@@ -447,8 +446,7 @@
     }
 
     .pub-link:hover,
-    .pub-cite > summary:hover,
-    .pub-list-links a:hover {
+    .pub-cite > summary:hover {
         background: var(--resource-hover-bg);
         color: var(--resource-accent) !important;
         transform: translateY(-1px);
@@ -459,6 +457,35 @@
     .pub-list-links a:focus-visible {
         outline: 2px solid rgba(77, 111, 163, 0.48);
         outline-offset: 2px;
+    }
+
+    .pub-list-links a {
+        align-items: center;
+        color: #9f5139 !important;
+        column-gap: 0.25em;
+        display: inline-flex;
+        font-size: 0.72rem;
+        font-weight: 750;
+        line-height: 1.25;
+        padding: 0 1px;
+        text-decoration: none !important;
+    }
+
+    .pub-list-links a + a::before {
+        color: #b8a29a;
+        content: "/";
+        font-weight: 600;
+        margin-right: 6px;
+    }
+
+    .pub-list-links a:hover {
+        color: #c06b48 !important;
+        text-decoration: underline !important;
+        text-underline-offset: 2px;
+    }
+
+    .pub-list-links .pub-link__icon {
+        display: none;
     }
 
     .pub-link__icon {
@@ -687,14 +714,6 @@
         white-space: nowrap;
     }
 
-    .pub-list-links a {
-        margin-left: 4px;
-    }
-
-      .pub-list-links a:hover {
-        color: var(--resource-accent) !important;
-    }
-
     /* Projects cards: keep styles independent from publications */
     .project-card {
         padding: 3px;
@@ -840,9 +859,9 @@
         }
 
         .pub-list-links {
-            display: flex;
+            display: inline-flex;
             margin-left: 0;
-            margin-top: 6px;
+            margin-top: 4px;
         }
 
         .pub-cite pre {

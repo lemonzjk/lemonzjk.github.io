@@ -241,8 +241,7 @@ html[data-theme="dark"] .pub-list-badge {
 }
 
 html[data-theme="dark"] .pub-link,
-html[data-theme="dark"] .pub-cite > summary,
-html[data-theme="dark"] .pub-list-links a {
+html[data-theme="dark"] .pub-cite > summary {
   --resource-accent: #d8dde3;
   --resource-bg: rgba(255, 255, 255, 0.055);
   --resource-border: rgba(255, 255, 255, 0.14);
@@ -250,9 +249,20 @@ html[data-theme="dark"] .pub-list-links a {
 }
 
 html[data-theme="dark"] .pub-link:hover,
-html[data-theme="dark"] .pub-cite > summary:hover,
-html[data-theme="dark"] .pub-list-links a:hover {
+html[data-theme="dark"] .pub-cite > summary:hover {
   color: var(--resource-accent) !important;
+}
+
+html[data-theme="dark"] .pub-list-links a {
+  color: #d59b86 !important;
+}
+
+html[data-theme="dark"] .pub-list-links a + a::before {
+  color: #6d5e5b;
+}
+
+html[data-theme="dark"] .pub-list-links a:hover {
+  color: #f0b3a7 !important;
 }
 
 html[data-theme="dark"] .pub-link__icon {
