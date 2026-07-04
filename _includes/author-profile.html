@@ -79,7 +79,7 @@
         <li><a href="{{ author.arxiv }}"><i class="ai ai-fw ai-arxiv icon-pad-right" aria-hidden="true"></i>arXiv</a></li>
       {% endif %}      
       {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}">{% include sidebar-icon.html icon="scholar" class="author__icon--scholar" %}Google Scholar</a></li>
+        <li class="author__scholar"><a href="{{ author.googlescholar }}">{% include sidebar-icon.html icon="scholar" class="author__icon--scholar" %}Google Scholar</a></li>
       {% endif %}
       {% if author.semantic %}
         <li><a href="{{ author.semantic }}"><i class="ai ai-fw ai-semantic-scholar icon-pad-right" aria-hidden="true"></i>Semantic Scholar</a></li>
