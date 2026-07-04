@@ -1,0 +1,22 @@
+<div class="accent-picker {{ include.class }}" data-accent-picker>
+  {% if include.inline %}
+    <span class="accent-picker__inline-label">
+      <span class="accent-picker__dot" aria-hidden="true"></span>
+      <span>{{ include.label }}</span>
+    </span>
+  {% else %}
+    <button class="accent-picker__toggle" type="button" aria-label="{% if is_zh %}切换主题色{% else %}Change accent color{% endif %}" aria-haspopup="true" aria-expanded="false">
+      <span class="accent-picker__dot" aria-hidden="true"></span>
+      {% if include.label %}
+        <span class="accent-picker__label">{{ include.label }}</span>
+      {% endif %}
+    </button>
+  {% endif %}
+  <div class="accent-picker__menu" role="menu" aria-label="{% if is_zh %}主题色{% else %}Accent colors{% endif %}">
+    <button class="accent-picker__swatch accent-picker__swatch--coral" type="button" data-accent-value="coral" role="menuitemradio" aria-checked="true" aria-label="{% if is_zh %}珊瑚色{% else %}Coral{% endif %}"></button>
+    <button class="accent-picker__swatch accent-picker__swatch--blue" type="button" data-accent-value="blue" role="menuitemradio" aria-checked="false" aria-label="{% if is_zh %}蓝色{% else %}Blue{% endif %}"></button>
+    <button class="accent-picker__swatch accent-picker__swatch--teal" type="button" data-accent-value="teal" role="menuitemradio" aria-checked="false" aria-label="{% if is_zh %}青绿色{% else %}Teal{% endif %}"></button>
+    <button class="accent-picker__swatch accent-picker__swatch--violet" type="button" data-accent-value="violet" role="menuitemradio" aria-checked="false" aria-label="{% if is_zh %}紫色{% else %}Violet{% endif %}"></button>
+    <button class="accent-picker__swatch accent-picker__swatch--forest" type="button" data-accent-value="forest" role="menuitemradio" aria-checked="false" aria-label="{% if is_zh %}森林绿{% else %}Forest{% endif %}"></button>
+  </div>
+</div>

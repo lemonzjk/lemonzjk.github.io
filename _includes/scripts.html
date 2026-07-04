@@ -1,8 +1,15 @@
-<script src="{{ base_path }}/assets/js/main.min.js"></script>
+<script src="{{ base_path }}/assets/js/main.min.js?v={{ site.asset_version | default: "1" }}"></script>
 <script>
 (function() {
+  var allowedAccents = ['coral', 'blue', 'teal', 'violet', 'forest'];
+
   function getTheme() {
     return document.documentElement.getAttribute('data-theme') || 'light';
+  }
+
+  function getAccent() {
+    var accent = document.documentElement.getAttribute('data-accent') || 'coral';
+    return allowedAccents.indexOf(accent) > -1 ? accent : 'coral';
   }
 
   function setTheme(theme) {
@@ -15,9 +22,25 @@
     });
   }
 
+  function setAccent(accent) {
+    var nextAccent = allowedAccents.indexOf(accent) > -1 ? accent : 'coral';
+    document.documentElement.setAttribute('data-accent', nextAccent);
+    localStorage.setItem('site-accent', nextAccent);
+    document.querySelectorAll('.accent-picker__swatch').forEach(function(button) {
+      var selected = button.getAttribute('data-accent-value') === nextAccent;
+      button.setAttribute('aria-checked', selected ? 'true' : 'false');
+      button.classList.toggle('is-active', selected);
+    });
+  }
+
   function closeAll() {
     document.querySelectorAll('.author__urls-wrapper.is-open').forEach(function(wrapper) {
       wrapper.classList.remove('is-open');
+    });
+    document.querySelectorAll('.accent-picker.is-open').forEach(function(picker) {
+      var toggle = picker.querySelector('.accent-picker__toggle');
+      picker.classList.remove('is-open');
+      if (toggle) toggle.setAttribute('aria-expanded', 'false');
     });
   }
 
@@ -83,6 +106,7 @@
     });
 
     setTheme(getTheme());
+    setAccent(getAccent());
     document.querySelectorAll('.theme-toggle').forEach(function(button) {
       function toggleTheme(event) {
         event.preventDefault();
@@ -95,6 +119,39 @@
         if (event.key === 'Enter' || event.key === ' ') {
           toggleTheme(event);
         }
+      });
+    });
+
+    document.querySelectorAll('.accent-picker').forEach(function(picker) {
+      var toggle = picker.querySelector('.accent-picker__toggle');
+      var menu = picker.querySelector('.accent-picker__menu');
+      if (!menu) return;
+
+      if (toggle) {
+        toggle.addEventListener('click', function(event) {
+          event.preventDefault();
+          event.stopPropagation();
+          var willOpen = !picker.classList.contains('is-open');
+          closeAll();
+          picker.classList.toggle('is-open', willOpen);
+          toggle.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+        });
+
+        toggle.addEventListener('keydown', function(event) {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            toggle.click();
+          }
+        });
+      }
+
+      picker.querySelectorAll('.accent-picker__swatch').forEach(function(button) {
+        button.addEventListener('click', function(event) {
+          event.preventDefault();
+          event.stopPropagation();
+          setAccent(button.getAttribute('data-accent-value'));
+          closeAll();
+        });
       });
     });
 

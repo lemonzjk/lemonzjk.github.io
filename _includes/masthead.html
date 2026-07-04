@@ -9,10 +9,12 @@
   {% assign nav_links = site.data.navigation.main_zh %}
   {% assign home_url = "/zh/" %}
   {% assign lang_switch_url = page.translation_url | default: "/" %}
+  {% assign accent_label = "主题色" %}
 {% else %}
   {% assign nav_links = site.data.navigation.main %}
   {% assign home_url = "/" %}
   {% assign lang_switch_url = page.translation_url | default: "/zh/" %}
+  {% assign accent_label = "Accent" %}
 {% endif %}
 
 <div class="masthead">
@@ -46,6 +48,9 @@
             <li class="masthead__menu-item masthead__menu-item--mobile-static"><a href="{{ mobile_domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
           <li class="masthead__menu-item masthead__menu-item--mobile-static"><a href="{{ lang_switch_domain }}{{ lang_switch_url }}">{% if is_zh %}English{% else %}中文{% endif %}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--mobile-static masthead__menu-item--accent">
+            {% include accent-picker.html class="accent-picker--menu" label=accent_label inline=true %}
+          </li>
         </ul>
         <div class="masthead__tools" aria-label="{% if is_zh %}页面工具{% else %}Page tools{% endif %}">
           <a class="language-switch" href="{{ lang_switch_domain }}{{ lang_switch_url }}" aria-label="{% if is_zh %}Switch to English{% else %}切换到中文{% endif %}">
@@ -60,6 +65,7 @@
               <svg viewBox="0 0 24 24"><path d="M20.5 15.4A8.4 8.4 0 0 1 8.6 3.5 7 7 0 1 0 20.5 15.4Z"></path></svg>
             </span>
           </span>
+          {% include accent-picker.html class="accent-picker--nav" %}
         </div>
       </nav>
     </div>
