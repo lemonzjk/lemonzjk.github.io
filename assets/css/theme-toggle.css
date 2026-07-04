@@ -254,15 +254,39 @@ html[data-theme="dark"] .pub-cite > summary:hover {
 }
 
 html[data-theme="dark"] .pub-list-links a {
-  color: #d59b86 !important;
+  --list-link-accent: #f0b3a7;
+  --list-link-bg: rgba(240, 179, 167, 0.08);
+  --list-link-border: rgba(240, 179, 167, 0.2);
+  --list-link-hover-bg: rgba(240, 179, 167, 0.13);
+  --list-link-hover-border: rgba(240, 179, 167, 0.32);
 }
 
-html[data-theme="dark"] .pub-list-links a + a::before {
-  color: #6d5e5b;
+html[data-theme="dark"] .pub-list-links a.pub-link--code {
+  --list-link-accent: #9fd6bb;
+  --list-link-bg: rgba(159, 214, 187, 0.08);
+  --list-link-border: rgba(159, 214, 187, 0.2);
+  --list-link-hover-bg: rgba(159, 214, 187, 0.13);
+  --list-link-hover-border: rgba(159, 214, 187, 0.32);
+}
+
+html[data-theme="dark"] .pub-list-links a.pub-link--poster {
+  --list-link-accent: #adc8f4;
+  --list-link-bg: rgba(173, 200, 244, 0.08);
+  --list-link-border: rgba(173, 200, 244, 0.2);
+  --list-link-hover-bg: rgba(173, 200, 244, 0.13);
+  --list-link-hover-border: rgba(173, 200, 244, 0.32);
+}
+
+html[data-theme="dark"] .pub-list-links a.pub-link--project {
+  --list-link-accent: #e8c48c;
+  --list-link-bg: rgba(232, 196, 140, 0.08);
+  --list-link-border: rgba(232, 196, 140, 0.2);
+  --list-link-hover-bg: rgba(232, 196, 140, 0.13);
+  --list-link-hover-border: rgba(232, 196, 140, 0.32);
 }
 
 html[data-theme="dark"] .pub-list-links a:hover {
-  color: #f0b3a7 !important;
+  color: var(--list-link-accent) !important;
 }
 
 html[data-theme="dark"] .pub-link__icon {
