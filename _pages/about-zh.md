@@ -100,19 +100,21 @@ stylesheets:
         Jiaxu Leng, <strong>Jiankang Zheng</strong>（学生一作）, Mengjingcheng Mo, Zhanjie Wu, Haosheng Chen, Ji Gan, and Xinbo Gao&dagger;.
       </span>
       <p class="pub-card-summary">LRPO 从多条推理轨迹的组相对比较中提取语义优势，并将其转化为语言化异常先验，通过上下文注入增强视频异常推理能力，且不需要更新模型参数。</p>
-      <span class="pub-card-venue">ICML 2026 · CCF-A</span>
-      <div class="pub-links">
-        <a class="pub-link pub-link--paper" href="https://arxiv.org/abs/2607.00654" target="_blank" rel="noopener"><i class="fas fa-file-pdf pub-link__icon" aria-hidden="true"></i><span>论文</span></a>
-        <a class="pub-link pub-link--poster" href="https://icml.cc/virtual/2026/poster/64285" target="_blank" rel="noopener"><i class="fas fa-panorama pub-link__icon" aria-hidden="true"></i><span>Poster</span></a>
-        <details class="pub-cite">
-          <summary class="pub-link pub-link--bib"><i class="fas fa-quote-left pub-link__icon" aria-hidden="true"></i><span>BibTeX</span></summary>
+      <div class="pub-card-footer">
+        <span class="pub-card-venue">ICML 2026 · CCF-A</span>
+        <div class="pub-links">
+          <a class="pub-link pub-link--paper" href="https://arxiv.org/abs/2607.00654" target="_blank" rel="noopener"><i class="fas fa-file-pdf pub-link__icon" aria-hidden="true"></i><span>论文</span></a>
+          <a class="pub-link pub-link--poster" href="https://icml.cc/virtual/2026/poster/64285" target="_blank" rel="noopener"><i class="fas fa-panorama pub-link__icon" aria-hidden="true"></i><span>Poster</span></a>
+          <details class="pub-cite">
+            <summary class="pub-link pub-link--bib"><i class="fas fa-quote-left pub-link__icon" aria-hidden="true"></i><span>BibTeX</span></summary>
 <pre>@inproceedings{leng2026lrpo,
   title={Linguistic Relative Policy Optimization for Video Anomaly Reasoning},
   author={Leng, Jiaxu and Zheng, Jiankang and Mo, Mengjingcheng and Wu, Zhanjie and Chen, Haosheng and Gan, Ji and Gao, Xinbo},
   booktitle={International Conference on Machine Learning},
   year={2026}
 }</pre>
-        </details>
+          </details>
+        </div>
       </div>
     </div>
   </div>
@@ -129,9 +131,11 @@ stylesheets:
         <strong>Jiankang Zheng</strong>（第一作者）, Mengjingcheng Mo*, Jiaxu Leng, Mingpi Tan, Zhanjie Wu, Ji Gan, Haosheng Chen, and Xinbo Gao.
       </span>
       <p class="pub-card-summary">UGHR 评估当前片段的判别不确定性，并从短时记忆、场景记忆和全局记忆中逐级检索高置信正常/异常参考样例，以增强冻结 VLM 在弱视觉线索下的异常判断能力。</p>
-      <span class="pub-card-venue">IEEE TMM · Under Revision · CCF-A / 中科院一区 Top</span>
-      <div class="pub-links">
-        <a class="pub-link pub-link--code" href="https://github.com/lemonzjk/UGHR" target="_blank" rel="noopener"><i class="fab fa-github pub-link__icon" aria-hidden="true"></i><span>Code</span></a>
+      <div class="pub-card-footer">
+        <span class="pub-card-venue">IEEE TMM · Under Revision · CCF-A / 中科院一区 Top</span>
+        <div class="pub-links">
+          <a class="pub-link pub-link--code" href="https://github.com/lemonzjk/UGHR" target="_blank" rel="noopener"><i class="fab fa-github pub-link__icon" aria-hidden="true"></i><span>Code</span></a>
+        </div>
       </div>
     </div>
   </div>
@@ -148,11 +152,12 @@ stylesheets:
         Mengjingcheng Mo, <strong>Jiankang Zheng</strong>（第二作者）, Jiaxu Leng&dagger;, and Xinbo Gao.
       </span>
       <p class="pub-card-summary">ReCI 通过局部片段描述与全局场景摘要构建语义上下文，并检索高置信参考样例，从而提升低光照场景下视频异常检测的鲁棒性。</p>
-      <span class="pub-card-venue">ICMR 2026 · CCF-B</span>
-      <div class="pub-links">
-        <a class="pub-link pub-link--paper" href="https://dl.acm.org/doi/10.1145/3805622.3810823" target="_blank" rel="noopener"><i class="fas fa-file-pdf pub-link__icon" aria-hidden="true"></i><span>Paper</span></a>
-        <details class="pub-cite">
-          <summary class="pub-link pub-link--bib"><i class="fas fa-quote-left pub-link__icon" aria-hidden="true"></i><span>BibTeX</span></summary>
+      <div class="pub-card-footer">
+        <span class="pub-card-venue">ICMR 2026 · CCF-B</span>
+        <div class="pub-links">
+          <a class="pub-link pub-link--paper" href="https://dl.acm.org/doi/10.1145/3805622.3810823" target="_blank" rel="noopener"><i class="fas fa-file-pdf pub-link__icon" aria-hidden="true"></i><span>Paper</span></a>
+          <details class="pub-cite">
+            <summary class="pub-link pub-link--bib"><i class="fas fa-quote-left pub-link__icon" aria-hidden="true"></i><span>BibTeX</span></summary>
 <pre>@inproceedings{mo2026retrieval,
   title={Retrieval-Guided Contextual Inference for Training-Free Video Anomaly Detection in Low-Light Scenarios},
   author={Mo, Mengjingcheng and Zheng, Jiankang and Leng, Jiaxu and Gao, Xinbo},
@@ -160,7 +165,8 @@ stylesheets:
   pages={930--939},
   year={2026}
 }</pre>
-        </details>
+          </details>
+        </div>
       </div>
     </div>
   </div>

@@ -347,20 +347,26 @@
         margin: 0;
     }
 
+    .publication-card .pub-card-footer {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 7px 10px;
+        margin-top: 1px;
+    }
+
     .publication-card .pub-card-venue {
-        align-self: flex-start;
-        background: rgba(131, 161, 199, 0.14);
-        border: 1px solid rgba(131, 161, 199, 0.36);
-        border-radius: 7px;
         box-sizing: border-box;
-        color: #56749c;
+        color: #6f8caf;
         display: inline-block;
-        font-size: 0.79rem;
+        font-size: 0.77rem;
         font-style: italic;
         font-weight: 800;
-        line-height: 1.25;
+        line-height: 1.35;
         max-width: 100%;
-        padding: 4px 8px;
+        padding-right: 2px;
+        position: relative;
+        white-space: normal;
     }
 
     .publication-card i {
@@ -408,7 +414,7 @@
         display: flex;
         flex-wrap: wrap;
         gap: 6px;
-        margin-top: 1px;
+        margin-top: 0;
     }
 
     .pub-list-links {
@@ -799,6 +805,11 @@
             row-gap: 6px;
         }
 
+        .publication-card .pub-card-footer {
+            align-items: flex-start;
+            gap: 6px 8px;
+        }
+
         .publication-card .pub-card-title {
             font-size: 0.96rem;
             line-height: 1.32;
@@ -812,7 +823,7 @@
         .publication-card .pub-card-venue {
             font-size: 0.74rem;
             line-height: 1.35;
-            padding: 4px 7px;
+            padding-right: 0;
         }
 
         .publication-card strong,

@@ -104,19 +104,21 @@ Feel free to reach out if you are interested in research discussion or collabora
         Jiaxu Leng, <strong>Jiankang Zheng</strong> (student first author), Mengjingcheng Mo, Zhanjie Wu, Haosheng Chen, Ji Gan, and Xinbo Gao&dagger;.
       </span>
       <p class="pub-card-summary">LRPO extracts group-relative semantic advantages from multiple reasoning trajectories and converts them into linguistic anomaly priors. The priors are injected as context to improve video anomaly reasoning without updating model parameters.</p>
-      <span class="pub-card-venue">ICML 2026 · CCF-A</span>
-      <div class="pub-links">
-        <a class="pub-link pub-link--paper" href="https://arxiv.org/abs/2607.00654" target="_blank" rel="noopener"><i class="fas fa-file-pdf pub-link__icon" aria-hidden="true"></i><span>Paper</span></a>
-        <a class="pub-link pub-link--poster" href="https://icml.cc/virtual/2026/poster/64285" target="_blank" rel="noopener"><i class="fas fa-panorama pub-link__icon" aria-hidden="true"></i><span>Poster</span></a>
-        <details class="pub-cite">
-          <summary class="pub-link pub-link--bib"><i class="fas fa-quote-left pub-link__icon" aria-hidden="true"></i><span>BibTeX</span></summary>
+      <div class="pub-card-footer">
+        <span class="pub-card-venue">ICML 2026 · CCF-A</span>
+        <div class="pub-links">
+          <a class="pub-link pub-link--paper" href="https://arxiv.org/abs/2607.00654" target="_blank" rel="noopener"><i class="fas fa-file-pdf pub-link__icon" aria-hidden="true"></i><span>Paper</span></a>
+          <a class="pub-link pub-link--poster" href="https://icml.cc/virtual/2026/poster/64285" target="_blank" rel="noopener"><i class="fas fa-panorama pub-link__icon" aria-hidden="true"></i><span>Poster</span></a>
+          <details class="pub-cite">
+            <summary class="pub-link pub-link--bib"><i class="fas fa-quote-left pub-link__icon" aria-hidden="true"></i><span>BibTeX</span></summary>
 <pre>@inproceedings{leng2026lrpo,
   title={Linguistic Relative Policy Optimization for Video Anomaly Reasoning},
   author={Leng, Jiaxu and Zheng, Jiankang and Mo, Mengjingcheng and Wu, Zhanjie and Chen, Haosheng and Gan, Ji and Gao, Xinbo},
   booktitle={International Conference on Machine Learning},
   year={2026}
 }</pre>
-        </details>
+          </details>
+        </div>
       </div>
     </div>
   </div>
@@ -133,9 +135,11 @@ Feel free to reach out if you are interested in research discussion or collabora
         <strong>Jiankang Zheng</strong> (first author), Mengjingcheng Mo*, Jiaxu Leng, Mingpi Tan, Zhanjie Wu, Ji Gan, Haosheng Chen, and Xinbo Gao.
       </span>
       <p class="pub-card-summary">UGHR evaluates discriminative uncertainty and retrieves high-confidence normal/abnormal references from short-term, scene, and global memories to strengthen frozen VLMs under weak visual evidence.</p>
-      <span class="pub-card-venue">IEEE TMM · Under Revision · CCF-A / CAS Zone 1 Top</span>
-      <div class="pub-links">
-        <a class="pub-link pub-link--code" href="https://github.com/lemonzjk/UGHR" target="_blank" rel="noopener"><i class="fab fa-github pub-link__icon" aria-hidden="true"></i><span>Code</span></a>
+      <div class="pub-card-footer">
+        <span class="pub-card-venue">IEEE TMM · Under Revision · CCF-A / CAS Zone 1 Top</span>
+        <div class="pub-links">
+          <a class="pub-link pub-link--code" href="https://github.com/lemonzjk/UGHR" target="_blank" rel="noopener"><i class="fab fa-github pub-link__icon" aria-hidden="true"></i><span>Code</span></a>
+        </div>
       </div>
     </div>
   </div>
@@ -152,11 +156,12 @@ Feel free to reach out if you are interested in research discussion or collabora
         Mengjingcheng Mo, <strong>Jiankang Zheng</strong> (second author), Jiaxu Leng&dagger;, and Xinbo Gao.
       </span>
       <p class="pub-card-summary">ReCI builds semantic context from local clip descriptions and global scene summaries, then retrieves high-confidence references to improve robustness in low-light anomaly detection.</p>
-      <span class="pub-card-venue">ICMR 2026 · CCF-B</span>
-      <div class="pub-links">
-        <a class="pub-link pub-link--paper" href="https://dl.acm.org/doi/10.1145/3805622.3810823" target="_blank" rel="noopener"><i class="fas fa-file-pdf pub-link__icon" aria-hidden="true"></i><span>Paper</span></a>
-        <details class="pub-cite">
-          <summary class="pub-link pub-link--bib"><i class="fas fa-quote-left pub-link__icon" aria-hidden="true"></i><span>BibTeX</span></summary>
+      <div class="pub-card-footer">
+        <span class="pub-card-venue">ICMR 2026 · CCF-B</span>
+        <div class="pub-links">
+          <a class="pub-link pub-link--paper" href="https://dl.acm.org/doi/10.1145/3805622.3810823" target="_blank" rel="noopener"><i class="fas fa-file-pdf pub-link__icon" aria-hidden="true"></i><span>Paper</span></a>
+          <details class="pub-cite">
+            <summary class="pub-link pub-link--bib"><i class="fas fa-quote-left pub-link__icon" aria-hidden="true"></i><span>BibTeX</span></summary>
 <pre>@inproceedings{mo2026retrieval,
   title={Retrieval-Guided Contextual Inference for Training-Free Video Anomaly Detection in Low-Light Scenarios},
   author={Mo, Mengjingcheng and Zheng, Jiankang and Leng, Jiaxu and Gao, Xinbo},
@@ -164,7 +169,8 @@ Feel free to reach out if you are interested in research discussion or collabora
   pages={930--939},
   year={2026}
 }</pre>
-        </details>
+          </details>
+        </div>
       </div>
     </div>
   </div>

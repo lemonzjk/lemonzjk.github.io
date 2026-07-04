@@ -212,9 +212,7 @@ html[data-theme="dark"] .publication-card .pub-card-authors strong {
 }
 
 html[data-theme="dark"] .publication-card .pub-card-venue {
-  background: rgba(131, 161, 199, 0.14);
-  border-color: rgba(131, 161, 199, 0.32);
-  color: #b8cff0;
+  color: #a9c1df;
 }
 
 html[data-theme="dark"] .publication-card i,
