@@ -78,9 +78,6 @@
       {% if author.arxiv %}
         <li><a href="{{ author.arxiv }}"><i class="ai ai-fw ai-arxiv icon-pad-right" aria-hidden="true"></i>arXiv</a></li>
       {% endif %}      
-      {% if author.googlescholar %}
-        <li class="author__scholar"><a href="{{ author.googlescholar }}">{% include sidebar-icon.html icon="scholar" class="author__icon--scholar" %}Google Scholar</a></li>
-      {% endif %}
       {% if author.semantic %}
         <li><a href="{{ author.semantic }}"><i class="ai ai-fw ai-semantic-scholar icon-pad-right" aria-hidden="true"></i>Semantic Scholar</a></li>
       {% endif %}
@@ -101,6 +98,9 @@
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}" target="_blank" rel="noopener">{% include sidebar-icon.html icon="blog" class="author__icon--blog" %}{{ blog_label }}</a></li>
+      {% endif %}
+      {% if author.googlescholar %}
+        <li class="author__scholar"><a href="{{ author.googlescholar }}">{% include sidebar-icon.html icon="scholar" class="author__icon--scholar" %}Google Scholar</a></li>
       {% endif %}
       {% if author.bitbucket %}
         <li><a href="https://bitbucket.org/{{ author.bitbucket }}"><i class="fab fa-fw fa-bitbucket icon-pad-right" aria-hidden="true"></i>Bitbucket</a></li>
