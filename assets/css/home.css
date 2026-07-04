@@ -1222,7 +1222,7 @@
                 box-shadow: none;
                 display: grid !important;
                 gap: 8px 14px;
-                grid-template-columns: repeat(2, minmax(170px, 1fr));
+                grid-template-columns: repeat(2, minmax(0, 1fr));
                 margin: 12px 0 0 !important;
                 padding: 0 !important;
                 position: static;
@@ -1248,9 +1248,13 @@
 
             .author__urls--academic > li > a,
             .author__urls--academic > li > span {
-                font-size: 0.96em;
+                font-size: 1.1em;
                 margin-bottom: 0;
                 padding: 4px 0;
+            }
+
+            .sidebar .author__pronouns {
+                white-space: nowrap !important;
             }
         }
 
@@ -1277,7 +1281,6 @@
             .author__urls--academic > li > a,
             .author__urls--academic > li > span {
                 column-gap: 0.2em;
-                font-size: 0.88em;
             }
         }
 
