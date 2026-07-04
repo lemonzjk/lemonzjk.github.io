@@ -22,5 +22,9 @@
     <button class="accent-picker__swatch accent-picker__swatch--rose" type="button" data-accent-value="rose" role="menuitemradio" aria-checked="false" aria-label="{% if is_zh %}玫瑰色{% else %}Rose{% endif %}"></button>
     <button class="accent-picker__swatch accent-picker__swatch--amber" type="button" data-accent-value="amber" role="menuitemradio" aria-checked="false" aria-label="{% if is_zh %}琥珀色{% else %}Amber{% endif %}"></button>
     <button class="accent-picker__swatch accent-picker__swatch--slate" type="button" data-accent-value="slate" role="menuitemradio" aria-checked="false" aria-label="{% if is_zh %}石板灰{% else %}Slate{% endif %}"></button>
+    <label class="accent-picker__custom" aria-label="{% if is_zh %}取色器自定义主题色{% else %}Custom accent color picker{% endif %}">
+      <span class="accent-picker__custom-label">{% if is_zh %}取色{% else %}Custom{% endif %}</span>
+      <input class="accent-picker__custom-input" type="color" value="#4d6fa3" aria-label="{% if is_zh %}选择自定义主题色{% else %}Pick custom accent color{% endif %}">
+    </label>
   </div>
 </div>

@@ -635,7 +635,7 @@ html[data-theme="dark"] .page__footer {
   flex-wrap: wrap;
   gap: 6px;
   justify-content: center;
-  max-width: 7.8rem;
+  max-width: 10.8rem;
   padding: 7px;
   position: absolute;
   right: 0;
@@ -741,6 +741,64 @@ html[data-theme="dark"] .page__footer {
   background: #64748b;
 }
 
+.accent-picker__custom {
+  align-items: center;
+  background: rgba(15, 23, 42, 0.045);
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  border-radius: 999px;
+  color: #5f6872;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 0.68rem;
+  font-weight: 750;
+  gap: 6px;
+  height: 1.45rem;
+  line-height: 1;
+  margin: 0;
+  padding: 2px 5px 2px 8px;
+  transition: background 160ms ease, border-color 160ms ease, box-shadow 160ms ease, color 160ms ease;
+  white-space: nowrap;
+}
+
+.accent-picker__custom:hover {
+  background: var(--site-accent-soft);
+  border-color: var(--site-accent-border);
+  color: var(--site-accent-ink);
+}
+
+.accent-picker__custom.is-active {
+  background: var(--site-accent-softer);
+  border-color: var(--site-accent-border-strong);
+  box-shadow: 0 0 0 2px var(--site-accent), 0 2px 7px rgba(15, 23, 42, 0.12);
+  color: var(--site-accent-ink);
+}
+
+.accent-picker__custom-input {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  height: 1.05rem;
+  margin: 0;
+  padding: 0;
+  width: 1.05rem;
+}
+
+.accent-picker__custom-input::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.accent-picker__custom-input::-webkit-color-swatch {
+  border: 1px solid rgba(15, 23, 42, 0.18);
+  border-radius: 999px;
+}
+
+.accent-picker__custom-input::-moz-color-swatch {
+  border: 1px solid rgba(15, 23, 42, 0.18);
+  border-radius: 999px;
+}
+
 .accent-picker--menu {
   display: grid;
   gap: 3px;
@@ -762,6 +820,10 @@ html[data-theme="dark"] .page__footer {
 .accent-picker--menu .accent-picker__swatch {
   height: 1.25rem;
   width: 1.25rem;
+}
+
+.accent-picker--menu .accent-picker__custom {
+  height: 1.6rem;
 }
 
 html[data-accent]:not([data-accent="coral"]) .language-switch {
@@ -958,6 +1020,32 @@ html[data-theme="dark"] .accent-picker__menu {
 
 html[data-theme="dark"] .accent-picker__inline-label {
   color: #d8dde3;
+}
+
+html[data-theme="dark"] .accent-picker__custom {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: #323b46;
+  color: #d8dde3;
+}
+
+html[data-theme="dark"] .accent-picker__custom:hover {
+  background: var(--site-accent-dark-soft);
+  border-color: var(--site-accent-dark-border);
+  color: var(--site-accent-dark-text);
+}
+
+html[data-theme="dark"] .accent-picker__custom.is-active {
+  background: var(--site-accent-dark-soft);
+  border-color: var(--site-accent-dark-border);
+  color: var(--site-accent-dark-text);
+}
+
+html[data-theme="dark"] .accent-picker__custom-input::-webkit-color-swatch {
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+html[data-theme="dark"] .accent-picker__custom-input::-moz-color-swatch {
+  border-color: rgba(255, 255, 255, 0.28);
 }
 
 html[data-theme="dark"] .accent-picker--menu .accent-picker__menu {
