@@ -188,17 +188,33 @@ html[data-theme="dark"] .project-card {
 }
 
 html[data-theme="dark"] .publication-card.featured {
-  background: #241d1d;
+  background: #211d1d;
   border-color: rgba(226, 139, 139, 0.45);
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
 }
 
 html[data-theme="dark"] .publication-card > div > strong,
 html[data-theme="dark"] .publication-card > div > div > strong,
+html[data-theme="dark"] .publication-card .pub-card-title,
 html[data-theme="dark"] .project-card > div > strong,
 html[data-theme="dark"] .project-card > div > div > strong,
 html[data-theme="dark"] .full-publication-list .pub-list-title {
   color: #eef2f6;
+}
+
+html[data-theme="dark"] .publication-card .pub-card-authors,
+html[data-theme="dark"] .publication-card .pub-card-summary {
+  color: #b8c0ca;
+}
+
+html[data-theme="dark"] .publication-card .pub-card-authors strong {
+  color: #eef2f6;
+}
+
+html[data-theme="dark"] .publication-card .pub-card-venue {
+  background: rgba(131, 161, 199, 0.14);
+  border-color: rgba(131, 161, 199, 0.32);
+  color: #b8cff0;
 }
 
 html[data-theme="dark"] .publication-card i,

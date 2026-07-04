@@ -99,13 +99,12 @@ Feel free to reach out if you are interested in research discussion or collabora
       <img class="pub-card-image" src="assets/paper_imgs/icml26-lrpo.png" alt="LRPO overview" loading="lazy" decoding="async">
     </div>
     <div class="pub-card-content">
-      <strong>Linguistic Relative Policy Optimization for Video Anomaly Reasoning</strong><br>
-      <i style="font-size: 13px;">
+      <span class="pub-card-title">Linguistic Relative Policy Optimization for Video Anomaly Reasoning</span>
+      <span class="pub-card-authors">
         Jiaxu Leng, <strong>Jiankang Zheng</strong> (student first author), Mengjingcheng Mo, Zhanjie Wu, Haosheng Chen, Ji Gan, and Xinbo Gao&dagger;.
-      </i><br>
-      LRPO extracts group-relative semantic advantages from multiple reasoning trajectories and converts them into linguistic anomaly priors. The priors are injected as context to improve video anomaly reasoning without updating model parameters.
-      <br>
-      <b><i style="color:#83a1c7;">ICML 2026 · CCF-A</i></b>
+      </span>
+      <p class="pub-card-summary">LRPO extracts group-relative semantic advantages from multiple reasoning trajectories and converts them into linguistic anomaly priors. The priors are injected as context to improve video anomaly reasoning without updating model parameters.</p>
+      <span class="pub-card-venue">ICML 2026 · CCF-A</span>
       <div class="pub-links">
         <a class="pub-link pub-link--paper" href="https://arxiv.org/abs/2607.00654" target="_blank" rel="noopener"><i class="fas fa-file-pdf pub-link__icon" aria-hidden="true"></i><span>Paper</span></a>
         <a class="pub-link pub-link--poster" href="https://icml.cc/virtual/2026/poster/64285" target="_blank" rel="noopener"><i class="fas fa-panorama pub-link__icon" aria-hidden="true"></i><span>Poster</span></a>
@@ -129,13 +128,12 @@ Feel free to reach out if you are interested in research discussion or collabora
       <img class="pub-card-image" src="assets/paper_imgs/tmm-ughr.png" alt="Uncertainty-guided hierarchical retrieval" loading="lazy" decoding="async">
     </div>
     <div class="pub-card-content">
-      <strong>Training-Free Video Anomaly Detection via Uncertainty-Guided Hierarchical Retrieval with Vision-Language Models</strong><br>
-      <i style="font-size: 13px;">
+      <span class="pub-card-title">Training-Free Video Anomaly Detection via Uncertainty-Guided Hierarchical Retrieval with Vision-Language Models</span>
+      <span class="pub-card-authors">
         <strong>Jiankang Zheng</strong> (first author), Mengjingcheng Mo*, Jiaxu Leng, Mingpi Tan, Zhanjie Wu, Ji Gan, Haosheng Chen, and Xinbo Gao.
-      </i><br>
-      UGHR evaluates discriminative uncertainty and retrieves high-confidence normal/abnormal references from short-term, scene, and global memories to strengthen frozen VLMs under weak visual evidence.
-      <br>
-      <b><i style="color:#83a1c7;">IEEE TMM · Under Revision · CCF-A / CAS Zone 1 Top</i></b>
+      </span>
+      <p class="pub-card-summary">UGHR evaluates discriminative uncertainty and retrieves high-confidence normal/abnormal references from short-term, scene, and global memories to strengthen frozen VLMs under weak visual evidence.</p>
+      <span class="pub-card-venue">IEEE TMM · Under Revision · CCF-A / CAS Zone 1 Top</span>
       <div class="pub-links">
         <a class="pub-link pub-link--code" href="https://github.com/lemonzjk/UGHR" target="_blank" rel="noopener"><i class="fab fa-github pub-link__icon" aria-hidden="true"></i><span>Code</span></a>
       </div>
@@ -149,13 +147,12 @@ Feel free to reach out if you are interested in research discussion or collabora
       <img class="pub-card-image" src="assets/paper_imgs/icmr26-reci.png" alt="Low-light contextual inference" loading="lazy" decoding="async">
     </div>
     <div class="pub-card-content">
-      <strong>Retrieval-Guided Contextual Inference for Training-Free Video Anomaly Detection in Low-Light Scenarios</strong><br>
-      <i style="font-size: 13px;">
+      <span class="pub-card-title">Retrieval-Guided Contextual Inference for Training-Free Video Anomaly Detection in Low-Light Scenarios</span>
+      <span class="pub-card-authors">
         Mengjingcheng Mo, <strong>Jiankang Zheng</strong> (second author), Jiaxu Leng&dagger;, and Xinbo Gao.
-      </i><br>
-      ReCI builds semantic context from local clip descriptions and global scene summaries, then retrieves high-confidence references to improve robustness in low-light anomaly detection.
-      <br>
-      <b><i style="color:#83a1c7;">ICMR 2026 · CCF-B</i></b>
+      </span>
+      <p class="pub-card-summary">ReCI builds semantic context from local clip descriptions and global scene summaries, then retrieves high-confidence references to improve robustness in low-light anomaly detection.</p>
+      <span class="pub-card-venue">ICMR 2026 · CCF-B</span>
       <div class="pub-links">
         <a class="pub-link pub-link--paper" href="https://dl.acm.org/doi/10.1145/3805622.3810823" target="_blank" rel="noopener"><i class="fas fa-file-pdf pub-link__icon" aria-hidden="true"></i><span>Paper</span></a>
         <details class="pub-cite">
