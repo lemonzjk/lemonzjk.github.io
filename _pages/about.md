@@ -32,9 +32,9 @@ redirect_from:
   </span>
 </div>
 
-Hi! I am an academic M.S. student in Computer Science and Technology at Chongqing University of Posts and Telecommunications, advised by Associate Professor Jiaxu Leng in Professor Xinbo Gao's team.
+Hi! I am an academic M.S. student in Computer Science and Technology at Chongqing University of Posts and Telecommunications, advised by **Associate Professor Jiaxu Leng** in **Professor Xinbo Gao**'s team.
 
-I am applying for **2027 Fall Ph.D. programs**. My research focuses on **Video Anomaly Understanding (VAU)**, with broader interests in **multimodal large models, agents, and embodied intelligence**.
+I am applying for **2027 Fall Ph.D. programs**. My research focuses on **Video Anomaly Understanding (VAU)**, and I am also very interested in **multimodal large models, agents, and embodied intelligence**.
 
 Feel free to reach out if you are interested in research discussion or collaboration. You can also find my profile on [Google Scholar](https://scholar.google.com/citations?user=ntH6xVMAAAAJ) and my technical notes on [CSDN](https://blog.csdn.net/lemonzjk).
 
@@ -231,8 +231,13 @@ Feel free to reach out if you are interested in research discussion or collabora
       <i style="font-size: 13px;">Chongqing Major AI Project, 10 million RMB, 2023.01 - 2026.12.</i><br>
       This project targets urban sanitation scenarios and develops GARDEN, an intelligent sanitation foundation model integrating environmental perception, risk reasoning, and disposal decision-making.
       <br>
-      <span style="color:#888;">Main responsibilities: designed sanitation-scene data collection schemes, organized real-scene shooting and synthetic garbage target generation, designed a multi-level vision-language annotation system, implemented GARDEN fine-tuning and iterative optimization, and developed an interactive demo supporting image upload, voice interaction, and structured reasoning-result display.</span>
-      <br>
+      <span style="color:#888;">Main responsibilities:</span>
+      <ol class="project-responsibilities">
+        <li>Designed sanitation-scene data collection schemes and organized real-scene shooting and synthetic garbage target generation.</li>
+        <li>Designed a multi-level vision-language annotation system for smart sanitation scenarios.</li>
+        <li>Implemented GARDEN multimodal foundation-model fine-tuning and iterative optimization.</li>
+        <li>Developed an interactive model demo supporting image upload, voice interaction, and structured reasoning-result display.</li>
+      </ol>
       <b><i style="color:#83a1c7;">Project · Multimodal Large Model · Risk Reasoning · Decision Support</i></b>
     </div>
   </div>

@@ -14,8 +14,42 @@
     #talks {
         scroll-margin-top: 104px;
     }
-  
-      /* ===== News Scroll Box ===== */
+
+    @media (min-width: 1024px) {
+        #main {
+            column-gap: 44px;
+            display: grid;
+            grid-template-columns: minmax(180px, 240px) minmax(0, 1fr);
+        }
+
+        #main .sidebar {
+            float: none;
+            grid-column: 1;
+            height: calc(100vh - 96px);
+            overflow-y: auto;
+            padding-top: 0;
+            position: sticky;
+            top: 82px;
+            width: 100%;
+        }
+
+        #main .page {
+            float: none;
+            grid-column: 2;
+            padding-left: 0;
+            padding-right: 0;
+            width: 100%;
+        }
+    }
+
+    @media (min-width: 1024px) and (max-width: 1320px) {
+        #main {
+            column-gap: 56px;
+            grid-template-columns: minmax(190px, 230px) minmax(0, 1fr);
+        }
+    }
+
+	      /* ===== News Scroll Box ===== */
     .news-box {
       overflow: visible;
       padding: 10px 14px;
@@ -270,22 +304,22 @@
         border-radius: 8px;
         background: #fff;
         box-sizing: border-box;
+        container-type: inline-size;
         margin-bottom: 20px;
         transition: border-color 0.2s ease, box-shadow 0.2s ease;
         color: #5f6368;
     }
 
     .pub-card-layout {
-        align-items: center;
+        align-items: flex-start;
         display: flex;
         gap: 18px;
         width: 100%;
     }
 
     .pub-card-media {
-        aspect-ratio: 16 / 9;
         border-radius: 8px;
-        flex: 0 0 320px;
+        flex: 0 0 clamp(280px, 38%, 390px);
         overflow: hidden;
         position: relative;
     }
@@ -294,7 +328,7 @@
     .pub-card-media > img,
     .pub-card-media > video {
         display: block;
-        height: 100%;
+        height: auto;
         margin: 0 auto;
         object-fit: contain;
         width: 100%;
@@ -306,7 +340,7 @@
     }
 
     .publication-card .pub-card-content {
-        align-self: center;
+        align-self: flex-start;
         display: flex;
         flex-direction: column;
         row-gap: 7px;
@@ -554,6 +588,20 @@
         --resource-hover-bg: rgba(122, 91, 152, 0.16);
     }
 
+    .pub-link--bib.is-copied {
+        --resource-accent: #356a4f;
+        --resource-bg: rgba(53, 106, 79, 0.1);
+        --resource-border: rgba(53, 106, 79, 0.34);
+        --resource-hover-bg: rgba(53, 106, 79, 0.16);
+    }
+
+    .pub-link--bib.is-copy-failed {
+        --resource-accent: #a14f36;
+        --resource-bg: rgba(161, 79, 54, 0.1);
+        --resource-border: rgba(161, 79, 54, 0.32);
+        --resource-hover-bg: rgba(161, 79, 54, 0.16);
+    }
+
     .pub-link--project {
         --resource-accent: #9b6a2f;
         --resource-bg: rgba(155, 106, 47, 0.11);
@@ -578,15 +626,15 @@
     }
 
     .pub-cite[open] {
-        display: block;
-        flex-basis: 100%;
-        margin-top: 2px;
-        width: 100%;
+        display: inline-flex;
+        flex-basis: auto;
+        margin-top: 0;
+        width: auto;
     }
 
     .pub-cite[open] > summary {
-        margin-bottom: 7px;
-        width: max-content;
+        margin-bottom: 0;
+        width: auto;
     }
 
     .pub-cite pre {
@@ -601,6 +649,7 @@
         max-width: 100%;
         overflow-x: auto;
         padding: 9px 10px;
+        display: none;
         white-space: pre;
     }
     .publication-card:hover {
@@ -747,6 +796,7 @@
         border-radius: 8px;
         background: #fff;
         box-sizing: border-box;
+        container-type: inline-size;
         margin-bottom: 20px;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
 
@@ -765,6 +815,70 @@
 
     .project-card:hover {
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+
+    .project-responsibilities {
+        color: #777f89;
+        counter-reset: responsibility;
+        display: grid;
+        gap: 6px;
+        list-style: none;
+        margin: 8px 0 6px;
+        padding: 0;
+    }
+
+    .project-responsibilities li {
+        display: grid;
+        grid-template-columns: 1.7em minmax(0, 1fr);
+        gap: 7px;
+        line-height: 1.42;
+        margin: 0;
+    }
+
+    .project-responsibilities li::before {
+        align-items: center;
+        background: rgba(131, 161, 199, 0.16);
+        border: 1px solid rgba(131, 161, 199, 0.36);
+        border-radius: 999px;
+        color: #4d6fa3;
+        content: counter(responsibility);
+        counter-increment: responsibility;
+        display: inline-flex;
+        font-size: 0.72em;
+        font-weight: 800;
+        height: 1.6em;
+        justify-content: center;
+        line-height: 1;
+        margin-top: 0.1em;
+        width: 1.6em;
+    }
+
+    @container (max-width: 760px) {
+        .publication-card .pub-card-layout {
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .publication-card .pub-card-media {
+            flex-basis: auto;
+            width: 100%;
+        }
+
+        .publication-card .pub-card-content {
+            width: 100%;
+        }
+    }
+
+    @container (max-width: 620px) {
+        .project-card .pub-card-layout {
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .project-card .pub-card-media,
+        .project-card .pub-card-content {
+            width: 100%;
+        }
     }
 
       @media (max-width: 720px) {
@@ -1045,8 +1159,55 @@
         }
 
         @media (max-width: 1023px) {
+            .sidebar > div[itemscope] {
+                display: grid;
+                grid-template-columns: 72px minmax(0, 1fr);
+                column-gap: 18px;
+                align-items: center;
+            }
+
+            .sidebar .author__avatar,
             .author__urls-wrapper {
                 display: block !important;
+            }
+
+            .sidebar .author__avatar {
+                grid-column: 1;
+                grid-row: 1 / span 2;
+                width: 72px;
+            }
+
+            .sidebar .author__avatar img {
+                width: 72px;
+                max-width: 72px;
+            }
+
+            .sidebar .author__content {
+                display: contents !important;
+            }
+
+            .sidebar .author__name,
+            .sidebar .author__pronouns {
+                grid-column: 2;
+            }
+
+            .sidebar .author__name {
+                align-self: end;
+                margin-bottom: 4px;
+            }
+
+            .sidebar .author__pronouns {
+                align-self: start;
+                margin-bottom: 0;
+            }
+
+            .sidebar .author__bio {
+                grid-column: 1 / -1;
+                margin-top: 16px;
+            }
+
+            .author__urls-wrapper {
+                grid-column: 1 / -1;
                 margin-top: 10px;
                 width: 100%;
             }
@@ -1060,9 +1221,9 @@
                 border: 0;
                 box-shadow: none;
                 display: grid !important;
-                gap: 4px 10px;
-                grid-template-columns: repeat(2, minmax(0, 1fr));
-                margin: 10px 0 0 !important;
+                gap: 8px 14px;
+                grid-template-columns: repeat(2, minmax(170px, 1fr));
+                margin: 12px 0 0 !important;
                 padding: 0 !important;
                 position: static;
                 right: auto;
@@ -1089,11 +1250,38 @@
             .author__urls--academic > li > span {
                 font-size: 0.96em;
                 margin-bottom: 0;
-                padding: 3px 0;
+                padding: 4px 0;
             }
         }
 
         @media (max-width: 520px) {
+            .sidebar > div[itemscope] {
+                grid-template-columns: 58px minmax(0, 1fr);
+                column-gap: 14px;
+            }
+
+            .sidebar .author__avatar {
+                width: 58px;
+            }
+
+            .sidebar .author__avatar img {
+                width: 58px;
+                max-width: 58px;
+            }
+
+            .author__urls-wrapper .author__urls {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 7px 8px;
+            }
+
+            .author__urls--academic > li > a,
+            .author__urls--academic > li > span {
+                column-gap: 0.2em;
+                font-size: 0.88em;
+            }
+        }
+
+        @media (max-width: 360px) {
             .author__urls-wrapper .author__urls {
                 grid-template-columns: 1fr;
             }

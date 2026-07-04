@@ -1,7 +1,7 @@
 <script src="{{ base_path }}/assets/js/main.min.js?v={{ site.asset_version | default: "1" }}"></script>
 <script>
 (function() {
-  var allowedAccents = ['coral', 'blue', 'teal', 'violet', 'forest'];
+  var allowedAccents = ['coral', 'blue', 'teal', 'violet', 'forest', 'indigo', 'rose', 'amber', 'slate'];
 
   function getTheme() {
     return document.documentElement.getAttribute('data-theme') || 'light';
@@ -71,6 +71,86 @@
     return true;
   }
 
+  function isChinesePage() {
+    var lang = document.documentElement.getAttribute('lang') || '';
+    return lang.indexOf('zh') === 0 || window.location.pathname.indexOf('/zh/') === 0;
+  }
+
+  function copyText(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      return navigator.clipboard.writeText(text);
+    }
+
+    return new Promise(function(resolve, reject) {
+      var textarea = document.createElement('textarea');
+      textarea.value = text;
+      textarea.setAttribute('readonly', '');
+      textarea.style.position = 'fixed';
+      textarea.style.top = '-9999px';
+      textarea.style.left = '-9999px';
+      document.body.appendChild(textarea);
+      textarea.select();
+
+      try {
+        if (document.execCommand('copy')) {
+          resolve();
+        } else {
+          reject(new Error('Copy command failed'));
+        }
+      } catch (error) {
+        reject(error);
+      } finally {
+        document.body.removeChild(textarea);
+      }
+    });
+  }
+
+  function setBibCopyState(summary, state) {
+    var label = summary.querySelector('span');
+    if (!summary.dataset.defaultLabel && label) {
+      summary.dataset.defaultLabel = label.textContent;
+    }
+
+    var copiedText = isChinesePage() ? '已复制' : 'Copied';
+    var failedText = isChinesePage() ? '复制失败' : 'Copy failed';
+    var defaultText = summary.dataset.defaultLabel || 'BibTeX';
+    var nextText = defaultText;
+
+    if (state === 'copied') nextText = copiedText;
+    if (state === 'failed') nextText = failedText;
+    if (label) label.textContent = nextText;
+
+    summary.classList.toggle('is-copied', state === 'copied');
+    summary.classList.toggle('is-copy-failed', state === 'failed');
+    window.clearTimeout(summary._bibCopyTimer);
+
+    if (state !== 'idle') {
+      summary._bibCopyTimer = window.setTimeout(function() {
+        setBibCopyState(summary, 'idle');
+      }, 1400);
+    }
+  }
+
+  function initBibCopy() {
+    document.querySelectorAll('.pub-cite > summary.pub-link--bib').forEach(function(summary) {
+      summary.addEventListener('click', function(event) {
+        event.preventDefault();
+        event.stopPropagation();
+
+        var cite = summary.closest('.pub-cite');
+        var pre = cite ? cite.querySelector('pre') : null;
+        if (!pre) return;
+
+        cite.open = false;
+        copyText(pre.textContent.trim()).then(function() {
+          setBibCopyState(summary, 'copied');
+        }).catch(function() {
+          setBibCopyState(summary, 'failed');
+        });
+      });
+    });
+  }
+
   function initBackToTop() {
     var button = document.querySelector('.back-to-top');
     if (!button) return;
@@ -107,6 +187,8 @@
 
     setTheme(getTheme());
     setAccent(getAccent());
+    initBibCopy();
+
     document.querySelectorAll('.theme-toggle').forEach(function(button) {
       function toggleTheme(event) {
         event.preventDefault();

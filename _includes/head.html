@@ -19,7 +19,7 @@
     var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
     var theme = storedTheme || (prefersDark ? 'dark' : 'light');
     var storedAccent = localStorage.getItem('site-accent') || 'coral';
-    var allowedAccents = ['coral', 'blue', 'teal', 'violet', 'forest'];
+    var allowedAccents = ['coral', 'blue', 'teal', 'violet', 'forest', 'indigo', 'rose', 'amber', 'slate'];
     var accent = allowedAccents.indexOf(storedAccent) > -1 ? storedAccent : 'coral';
     document.documentElement.setAttribute('data-theme', theme);
     document.documentElement.setAttribute('data-accent', accent);

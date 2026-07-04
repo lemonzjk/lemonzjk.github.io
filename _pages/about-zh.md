@@ -29,9 +29,9 @@ stylesheets:
   </span>
 </div>
 
-你好！我是重庆邮电大学计算机科学与技术专业学术型硕士研究生，导师为冷佳旭副教授，隶属于高新波教授团队。
+你好！我是重庆邮电大学计算机科学与技术专业学术型硕士研究生，导师为**冷佳旭副教授**，隶属于**高新波教授**团队。
 
-我正在申请 **2027 Fall 博士研究生项目**。我的研究方向聚焦于 **视频异常理解（VAU，Video Anomaly Understanding）**，同时也关注 **多模态大模型、智能体和具身智能**。
+我正在申请 **2027 Fall 博士研究生项目**。我的研究方向聚焦于 **视频异常理解（VAU，Video Anomaly Understanding）**，同时也对 **多模态大模型、智能体和具身智能** 很感兴趣。
 
 欢迎与我交流科研问题或探讨合作机会。你也可以通过 [Google Scholar](https://scholar.google.com/citations?user=ntH6xVMAAAAJ) 查看我的学术主页，或在 [CSDN](https://blog.csdn.net/lemonzjk) 阅读我的技术笔记。
 
@@ -227,8 +227,13 @@ stylesheets:
       <i style="font-size: 13px;">重庆市人工智能重大专项项目，1000 万元，2023.01 - 2026.12。</i><br>
       面向城市治理中的环卫场景，研发 GARDEN 智慧环卫大模型，构建集环境感知、风险推理与处置决策于一体的智能环卫作业系统。
       <br>
-      <span style="color:#888;">主要负责：设计环卫场景数据采集方案，组织真实场景拍摄与垃圾目标合成；设计智慧环卫多层次视觉语言标注体系；实现 GARDEN 多模态大模型微调与迭代优化；开发支持图像上传、语音交互和结构化推理结果展示的模型演示交互系统。</span>
-      <br>
+      <span style="color:#888;">主要负责：</span>
+      <ol class="project-responsibilities">
+        <li>设计环卫场景数据采集方案，组织真实场景拍摄与垃圾目标合成。</li>
+        <li>设计智慧环卫多层次视觉语言标注体系。</li>
+        <li>实现 GARDEN 多模态大模型微调与迭代优化。</li>
+        <li>开发支持图像上传、语音交互和结构化推理结果展示的模型演示交互系统。</li>
+      </ol>
       <b><i style="color:#83a1c7;">Project · Multimodal Large Model · Risk Reasoning · Decision Support</i></b>
     </div>
   </div>
