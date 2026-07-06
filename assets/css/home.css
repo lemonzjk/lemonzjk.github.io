@@ -880,11 +880,16 @@
         }
     }
 
-    @container (max-width: 620px) {
+    @container (max-width: 760px) {
         .project-card .pub-card-layout {
             align-items: stretch;
             flex-direction: column;
             gap: 12px;
+        }
+
+        .project-card .pub-card-media {
+            align-self: auto;
+            display: block;
         }
 
         .project-card .pub-card-media,
