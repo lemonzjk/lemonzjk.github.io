@@ -39,15 +39,6 @@
           {% assign lang_switch_domain = base_path %}
         {% endif %}
         <ul class="hidden-links hidden">
-          {% for link in nav_links %}
-            {% if link.url contains 'http' %}
-              {% assign mobile_domain = '' %}
-              {% else %}
-              {% assign mobile_domain = base_path %}
-            {% endif %}
-            <li class="masthead__menu-item masthead__menu-item--mobile-static"><a href="{{ mobile_domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
-          <li class="masthead__menu-item masthead__menu-item--mobile-static"><a href="{{ lang_switch_domain }}{{ lang_switch_url }}">{% if is_zh %}English{% else %}中文{% endif %}</a></li>
           <li class="masthead__menu-item masthead__menu-item--mobile-static masthead__menu-item--theme">
             <span class="theme-toggle theme-toggle--menu" role="button" tabindex="0" aria-label="{% if is_zh %}切换白天或夜晚模式{% else %}Toggle light or dark mode{% endif %}" aria-pressed="false">
               <span class="theme-toggle__menu-label">{% if is_zh %}日夜模式{% else %}Theme{% endif %}</span>
@@ -58,9 +49,6 @@
                 <svg viewBox="0 0 24 24"><path d="M20.5 15.4A8.4 8.4 0 0 1 8.6 3.5 7 7 0 1 0 20.5 15.4Z"></path></svg>
               </span>
             </span>
-          </li>
-          <li class="masthead__menu-item masthead__menu-item--mobile-static masthead__menu-item--accent">
-            {% include accent-picker.html class="accent-picker--menu" label=accent_label inline=true %}
           </li>
         </ul>
         <div class="masthead__tools" aria-label="{% if is_zh %}页面工具{% else %}Page tools{% endif %}">

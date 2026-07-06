@@ -15,8 +15,9 @@ var breaks = [];
 
 function updateNav() {
 
-  var toolOffset = $tools.length ? $tools.offset().left - $nav.offset().left - 12 : $nav.width();
-  var availableSpace = Math.max(0, toolOffset);
+  var gap = parseFloat($nav.css('column-gap') || $nav.css('gap') || 0) || 0;
+  var toolWidth = $tools.length ? $tools.outerWidth(true) : 0;
+  var availableSpace = Math.max(0, $nav.width() - toolWidth - gap);
 
   // The visible list is overflowing the nav
   if($vlinks.width() > availableSpace) {

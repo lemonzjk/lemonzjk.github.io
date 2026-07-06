@@ -327,7 +327,9 @@
     function availableWidth() {
       var navRect = nav.getBoundingClientRect();
       var toolsRect = tools.getBoundingClientRect();
-      return Math.max(0, toolsRect.left - navRect.left - 12);
+      var styles = window.getComputedStyle(nav);
+      var gap = parseFloat(styles.columnGap || styles.gap || 0) || 0;
+      return Math.max(0, navRect.width - toolsRect.width - gap);
     }
 
     function visibleMovableItems() {
