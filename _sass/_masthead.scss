@@ -260,7 +260,7 @@
 
   .masthead__menu-item--lg a {
     display: block;
-    max-width: calc(100vw - 10.8rem);
+    max-width: calc(100vw - 13.6rem);
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -308,7 +308,19 @@
   }
 
   .masthead__tools > .theme-toggle {
-    display: none !important;
+    display: inline-grid !important;
+    min-height: 1.82rem;
+    padding: 0.14rem !important;
+  }
+
+  .masthead__tools > .theme-toggle .theme-toggle__icon {
+    min-height: 1.42rem;
+    min-width: 1.42rem;
+  }
+
+  .masthead__tools > .theme-toggle .theme-toggle__icon svg {
+    height: 0.92rem;
+    width: 0.92rem;
   }
 
   .greedy-nav .hidden-links {
