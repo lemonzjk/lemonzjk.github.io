@@ -817,6 +817,17 @@
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     }
 
+    .project-card .pub-card-layout {
+        align-items: stretch;
+    }
+
+    .project-card .pub-card-media {
+        align-items: center;
+        align-self: stretch;
+        display: flex;
+        justify-content: center;
+    }
+
     .project-responsibilities {
         color: #777f89;
         counter-reset: responsibility;
@@ -871,6 +882,7 @@
 
     @container (max-width: 620px) {
         .project-card .pub-card-layout {
+            align-items: stretch;
             flex-direction: column;
             gap: 12px;
         }
