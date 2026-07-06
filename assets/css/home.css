@@ -15,21 +15,37 @@
         scroll-margin-top: 104px;
     }
 
+    @media (min-width: 925px) and (max-width: 1023px) {
+        #main {
+            display: block;
+            max-width: 860px;
+        }
+
+        #main .sidebar,
+        #main .page {
+            float: none;
+            padding-left: 0;
+            padding-right: 0;
+            width: 100%;
+        }
+    }
+
     @media (min-width: 1024px) {
         #main {
             column-gap: 44px;
             display: grid;
             grid-template-columns: minmax(180px, 240px) minmax(0, 1fr);
+            max-width: min(1440px, calc(100vw - 48px));
         }
 
         #main .sidebar {
             float: none;
             grid-column: 1;
-            height: calc(100vh - 96px);
+            height: calc(100vh - 118px);
             overflow-y: auto;
             padding-top: 0;
             position: sticky;
-            top: 82px;
+            top: 104px;
             width: 100%;
         }
 
