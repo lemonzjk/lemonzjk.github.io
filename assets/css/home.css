@@ -31,6 +31,9 @@
 
         #main .page {
             clear: both;
+            display: block;
+            position: relative;
+            z-index: 1;
         }
     }
 
@@ -48,8 +51,8 @@
             height: calc(100vh - 118px);
             overflow-y: auto;
             padding-top: 0;
-            position: sticky;
-            top: 104px;
+            position: sticky !important;
+            top: 104px !important;
             width: 100%;
         }
 
@@ -1301,8 +1304,16 @@
 
         @media (min-width: 925px) and (max-width: 1023px) {
             #main .sidebar {
-                margin-bottom: 40px;
-                overflow: visible;
+                bottom: auto !important;
+                height: auto !important;
+                left: auto !important;
+                margin-bottom: 44px;
+                overflow: visible !important;
+                position: static !important;
+                right: auto !important;
+                top: auto !important;
+                transform: none !important;
+                width: 100% !important;
             }
 
             #main .sidebar > div[itemscope] {
@@ -1352,7 +1363,7 @@
                 grid-template-columns: repeat(2, minmax(0, 1fr));
                 margin: 0 !important;
                 padding: 0 !important;
-                position: static;
+                position: static !important;
             }
 
             #main .author__urls--academic .author__scholar {
