@@ -14,6 +14,7 @@ var $tools = $('#site-nav .masthead__tools');
 var breaks = [];
 
 function updateNav() {
+  var restoreBuffer = 24;
 
   var gap = parseFloat($nav.css('column-gap') || $nav.css('gap') || 0) || 0;
   var toolWidth = $tools.length ? $tools.outerWidth(true) : 0;
@@ -37,7 +38,7 @@ function updateNav() {
   } else {
 
     // There is space for another item in the nav
-    if(availableSpace > breaks[breaks.length-1]) {
+    if(availableSpace > breaks[breaks.length-1] + restoreBuffer) {
 
       // Move the item to the visible list
       $hlinks.children().first().appendTo($vlinks);

@@ -365,6 +365,7 @@
     }
 
     function fitMasthead() {
+      var restoreBuffer = 24;
       var guard = 0;
       var available = availableWidth();
 
@@ -377,6 +378,13 @@
       guard = 0;
       while (hiddenNavItems().length && guard < 20) {
         var item = hiddenNavItems()[0];
+        var currentWidth = listWidth(visibleLinks);
+        var itemWidth = itemOuterWidth(item);
+
+        if (currentWidth + itemWidth + restoreBuffer > availableWidth()) {
+          break;
+        }
+
         moveToVisible(item);
 
         if (listWidth(visibleLinks) > availableWidth()) {
@@ -393,6 +401,13 @@
     function scheduleFit() {
       window.requestAnimationFrame(fitMasthead);
     }
+
+    button.addEventListener('click', function(event) {
+      event.preventDefault();
+      event.stopPropagation();
+      hiddenLinks.classList.toggle('hidden');
+      button.classList.toggle('close');
+    });
 
     scheduleFit();
     window.setTimeout(fitMasthead, 80);
