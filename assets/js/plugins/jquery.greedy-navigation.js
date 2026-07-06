@@ -9,12 +9,14 @@ var $nav = $('#site-nav');
 var $btn = $('#site-nav > button');
 var $vlinks = $('#site-nav .visible-links');
 var $hlinks = $('#site-nav .hidden-links');
+var $tools = $('#site-nav .masthead__tools');
 
 var breaks = [];
 
 function updateNav() {
 
-  var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
+  var toolOffset = $tools.length ? $tools.offset().left - $nav.offset().left - 12 : $nav.width();
+  var availableSpace = Math.max(0, toolOffset);
 
   // The visible list is overflowing the nav
   if($vlinks.width() > availableSpace) {
