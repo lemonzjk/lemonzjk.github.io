@@ -6,7 +6,7 @@ description              : &description "Academic homepage of Jiankang Zheng (éƒ
 url                      : "https://lemonzjk.github.io"
 baseurl                  : ""
 repository               : "lemonzjk/lemonzjk.github.io"
-asset_version            : "20260706-nav-stable-fit"
+asset_version            : "20260706-nav-menu-clean"
 
 author:
   avatar           : "/assets/avatar-ai-selected.png"

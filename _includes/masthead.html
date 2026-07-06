@@ -38,19 +38,7 @@
         {% else %}
           {% assign lang_switch_domain = base_path %}
         {% endif %}
-        <ul class="hidden-links hidden">
-          <li class="masthead__menu-item masthead__menu-item--mobile-static masthead__menu-item--theme">
-            <span class="theme-toggle theme-toggle--menu" role="button" tabindex="0" aria-label="{% if is_zh %}切换白天或夜晚模式{% else %}Toggle light or dark mode{% endif %}" aria-pressed="false">
-              <span class="theme-toggle__menu-label">{% if is_zh %}日夜模式{% else %}Theme{% endif %}</span>
-              <span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg>
-              </span>
-              <span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><path d="M20.5 15.4A8.4 8.4 0 0 1 8.6 3.5 7 7 0 1 0 20.5 15.4Z"></path></svg>
-              </span>
-            </span>
-          </li>
-        </ul>
+        <ul class="hidden-links hidden"></ul>
         <div class="masthead__tools" aria-label="{% if is_zh %}页面工具{% else %}Page tools{% endif %}">
           <a class="language-switch" href="{{ lang_switch_domain }}{{ lang_switch_url }}" aria-label="{% if is_zh %}Switch to English{% else %}切换到中文{% endif %}">
             <span class="language-switch__item{% if is_zh %} is-active{% endif %}">中</span>

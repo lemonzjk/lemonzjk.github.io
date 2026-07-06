@@ -369,6 +369,17 @@
       var guard = 0;
       var available = availableWidth();
 
+      if (window.innerWidth <= 768) {
+        while (visibleMovableItems().length && guard < 20) {
+          var mobileMovable = visibleMovableItems();
+          moveToHidden(mobileMovable[mobileMovable.length - 1]);
+          guard += 1;
+        }
+
+        updateButtonState();
+        return;
+      }
+
       while (listWidth(visibleLinks) > available && visibleMovableItems().length && guard < 20) {
         var movable = visibleMovableItems();
         moveToHidden(movable[movable.length - 1]);
