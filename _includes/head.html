@@ -21,7 +21,7 @@
     var theme = storedTheme || (prefersDark ? 'dark' : 'light');
     var storedAccent = localStorage.getItem('site-accent') || 'coral';
     var storedCustomAccent = localStorage.getItem('site-custom-accent') || '#4d6fa3';
-    var allowedAccents = ['coral', 'blue', 'teal', 'violet', 'forest', 'indigo', 'rose', 'amber', 'slate', 'custom'];
+    var allowedAccents = ['coral', 'blue', 'teal', 'violet', 'forest', 'indigo', 'rose', 'amber', 'custom'];
 
     function isHexColor(value) {
       return /^#[0-9a-f]{6}$/i.test(value || '');

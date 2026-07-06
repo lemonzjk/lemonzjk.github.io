@@ -77,8 +77,24 @@
   &--lg {
     padding-right: 3em;
     font-weight: 700;
+    min-width: max-content;
   }
 
+}
+
+.greedy-nav .visible-links .masthead__menu-item--lg,
+.greedy-nav .visible-links .masthead__menu-item--lg:first-child {
+  min-width: max-content;
+  text-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.greedy-nav .visible-links .masthead__menu-item--lg a {
+  line-height: 1.15;
+  overflow-wrap: normal;
+  text-wrap: nowrap;
+  white-space: nowrap;
+  word-break: keep-all;
 }
 
 .masthead__tools {
@@ -92,6 +108,17 @@
 
 .greedy-nav .visible-links {
   max-width: calc(100% - 14rem);
+}
+
+@media (max-width: 1180px) and (min-width: 769px) {
+  .masthead__menu-item--lg {
+    padding-right: 1.8em;
+  }
+
+  .masthead__inner-wrap {
+    padding-left: 0.85em;
+    padding-right: 0.85em;
+  }
 }
 
 .masthead__menu-item--mobile-static {
