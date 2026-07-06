@@ -28,6 +28,64 @@
             padding-right: 0;
             width: 100%;
         }
+
+        #main .sidebar {
+            margin-bottom: 34px;
+            overflow: visible;
+        }
+
+        #main .sidebar > div[itemscope] {
+            align-items: start;
+            display: grid;
+            gap: 18px 36px;
+            grid-template-columns: 168px minmax(0, 1fr);
+        }
+
+        #main .sidebar .author__avatar {
+            grid-column: 1;
+            grid-row: 1 / span 3;
+            width: 132px;
+        }
+
+        #main .sidebar .author__avatar img {
+            max-width: 132px;
+            width: 132px;
+        }
+
+        #main .sidebar .author__content {
+            display: block !important;
+            grid-column: 2;
+            padding: 0;
+        }
+
+        #main .sidebar .author__bio {
+            grid-column: 2;
+            margin: 0;
+        }
+
+        #main .author__urls-wrapper {
+            display: block !important;
+            grid-column: 1 / -1;
+            margin-top: 0;
+            width: 100%;
+        }
+
+        #main .author__urls-wrapper .author__urls {
+            display: grid !important;
+            gap: 10px 28px;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            margin: 0 !important;
+            padding: 0 !important;
+            position: static;
+        }
+
+        #main .author__urls--academic .author__scholar {
+            grid-column: auto;
+        }
+
+        #main .page {
+            clear: both;
+        }
     }
 
     @media (min-width: 1024px) {
