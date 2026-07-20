@@ -54,7 +54,7 @@ Feel free to reach out if you are interested in research discussion or collabora
 <h2 id="news">News</h2>
 <div class="news-box">
   <ul class="news-list">
-    <li><span class="news-date"><em>2026</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">Our first-author paper on uncertainty-guided hierarchical retrieval for training-free video anomaly detection was accepted by <strong>IEEE Transactions on Multimedia (TMM)</strong> on July 19, 2026.</span></li>
+    <li><span class="news-date"><em>2026</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">One first-author paper accepted by <strong>IEEE TMM</strong> on uncertainty-guided hierarchical retrieval for training-free video anomaly detection.</span></li>
     <li><span class="news-date"><em>2026</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">One paper accepted by <strong>ICML 2026</strong> on linguistic relative policy optimization for video anomaly reasoning.</span></li>
     <li><span class="news-date"><em>2026</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">One collaborative paper accepted by <strong>ICMR 2026</strong> on retrieval-guided contextual inference for low-light video anomaly detection.</span></li>
     <li><span class="news-date"><em>2025</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">One collaborative benchmark paper accepted by <strong>NeurIPS D&amp;B 2025</strong>: A2Seek for aerial anomaly understanding.</span></li>
@@ -137,7 +137,7 @@ Feel free to reach out if you are interested in research discussion or collabora
       </span>
       <p class="pub-card-summary">UGHR evaluates discriminative uncertainty and retrieves high-confidence normal/abnormal references from short-term, scene, and global memories to strengthen frozen VLMs under weak visual evidence.</p>
       <div class="pub-card-footer">
-        <span class="pub-card-venue">IEEE TMM · Accepted · CCF-A / CAS Zone 1 Top</span>
+        <span class="pub-card-venue">IEEE TMM · CCF-A / CAS Zone 1 Top</span>
         <div class="pub-links">
           <a class="pub-link pub-link--code" href="https://github.com/lemonzjk/UGHR" target="_blank" rel="noopener"><i class="fab fa-github pub-link__icon" aria-hidden="true"></i><span>Code</span></a>
         </div>
@@ -191,7 +191,7 @@ Feel free to reach out if you are interested in research discussion or collabora
       <span class="pub-list-badge">IEEE TMM</span>
       <span class="pub-list-title">Training-Free Video Anomaly Detection via Uncertainty-Guided Hierarchical Retrieval with Vision-Language Models</span><br>
       <span class="pub-list-authors"><strong>Jiankang Zheng</strong> (first author), Mengjingcheng Mo*, Jiaxu Leng, Mingpi Tan, Zhanjie Wu, Ji Gan, Haosheng Chen, and Xinbo Gao.</span>
-      <span class="pub-list-note">Accepted; CCF-A; CAS Zone 1 Top.</span>
+      <span class="pub-list-note">CCF-A; CAS Zone 1 Top.</span>
       <span class="pub-list-links"><a class="pub-link--code" href="https://github.com/lemonzjk/UGHR" target="_blank" rel="noopener"><i class="fab fa-github pub-link__icon" aria-hidden="true"></i><span>Code</span></a></span>
     </li>
     <li>

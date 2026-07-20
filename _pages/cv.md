@@ -75,7 +75,7 @@ stylesheets:
       <li class="cv-pub">
         <span class="cv-pub-num">[2]</span>
         <span class="cv-pub-body">
-          <strong class="cv-self">Jiankang Zheng</strong>（第一作者）, Mengjingcheng Mo*, Jiaxu Leng, Mingpi Tan, Zhanjie Wu, Ji Gan, Haosheng Chen, and Xinbo Gao. <span class="cv-pub-title">Training-Free Video Anomaly Detection via Uncertainty-Guided Hierarchical Retrieval with Vision-Language Models.</span> IEEE Transactions on Multimedia (TMM). 已录用。 <span class="cv-tag">(CCF-A；中科院一区 Top)</span>
+          <strong class="cv-self">Jiankang Zheng</strong>（第一作者）, Mengjingcheng Mo*, Jiaxu Leng, Mingpi Tan, Zhanjie Wu, Ji Gan, Haosheng Chen, and Xinbo Gao. <span class="cv-pub-title">Training-Free Video Anomaly Detection via Uncertainty-Guided Hierarchical Retrieval with Vision-Language Models.</span> IEEE Transactions on Multimedia (TMM). <span class="cv-tag">(CCF-A；中科院一区 Top)</span>
           <ul class="cv-detail-list">
             <li><strong class="cv-label">问题：</strong>现有免训练视频异常检测方法虽然无需任务标注和参数微调，但在低光照、遮挡、相机运动等复杂场景中，容易因视觉线索稀疏和辅助上下文不足而出现性能下降等问题。</li>
             <li><strong class="cv-label">方法：</strong>提出 UGHR 不确定性引导的层级检索框架，核心思想是先评估当前片段的判别不确定性，再从短时记忆、场景记忆和全局记忆中逐级检索高置信正常/异常参考样例，为冻结 VLM 补充上下文证据，从而增强弱视觉线索下的异常判断能力。</li>
