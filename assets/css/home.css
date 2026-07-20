@@ -1071,6 +1071,18 @@
             text-decoration: underline;
         }
 
+        .page__content a.profile-person-link {
+            text-decoration: underline !important;
+            text-decoration-color: currentColor;
+            text-decoration-thickness: 1.5px;
+            text-underline-offset: 0.16em;
+        }
+
+        .page__content a.profile-person-link:hover {
+            text-decoration: underline !important;
+            text-decoration-thickness: 2px;
+        }
+
         .sidebar {
             overflow-x: visible;
         }

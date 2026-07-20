@@ -29,7 +29,7 @@ stylesheets:
   </span>
 </div>
 
-你好！我是重庆邮电大学计算机科学与技术专业学术型硕士研究生，导师为[**冷佳旭副教授**](https://faculty.cqupt.edu.cn/lengjiaxu/zh_CN/index.htm)，隶属于[**高新波教授**](https://faculty.xidian.edu.cn/GXB/zh_CN/index.htm)团队。
+你好！我是重庆邮电大学计算机科学与技术专业学术型硕士研究生，导师为<strong><a class="profile-person-link" href="https://faculty.cqupt.edu.cn/lengjiaxu/zh_CN/index.htm">冷佳旭副教授</a></strong>，隶属于<strong><a class="profile-person-link" href="https://faculty.xidian.edu.cn/GXB/zh_CN/index.htm">高新波教授</a></strong>团队。
 
 我正在申请 **2027 Fall 博士研究生项目**。我的研究方向聚焦于 **视频异常理解（VAU，Video Anomaly Understanding）**，同时也对 **多模态大模型、智能体和具身智能** 很感兴趣。
 
