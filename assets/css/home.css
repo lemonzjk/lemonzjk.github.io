@@ -90,7 +90,7 @@
     .news-list li {
       align-items: start;
       display: grid;
-      grid-template-columns: 62px 1.35em minmax(0, 1fr);
+      grid-template-columns: 72px 1.35em minmax(0, 1fr);
       column-gap: 8px;
       margin-bottom: 10px;
       line-height: 1.5;

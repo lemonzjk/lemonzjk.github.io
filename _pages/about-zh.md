@@ -51,12 +51,13 @@ stylesheets:
 <h2 id="news">动态</h2>
 <div class="news-box">
   <ul class="news-list">
-    <li><span class="news-date"><em>2026</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">一篇第一作者论文被 <strong>IEEE TMM</strong> 录用，研究免训练视频异常检测中的不确定性引导层级检索。</span></li>
-    <li><span class="news-date"><em>2026</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">一篇关于视频异常推理语言化相对策略优化的论文被 <strong>ICML 2026</strong> 录用。</span></li>
-    <li><span class="news-date"><em>2026</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">一篇合作论文被 <strong>ICMR 2026</strong> 录用，研究低光照视频异常检测中的检索引导上下文推理。</span></li>
-    <li><span class="news-date"><em>2025</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">一篇合作基准论文被 <strong>NeurIPS D&amp;B 2025</strong> 录用：A2Seek，面向航拍异常理解的推理中心基准。</span></li>
-    <li><span class="news-date"><em>2025</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">获重庆邮电大学研究生一等学业奖学金。</span></li>
-    <li><span class="news-date"><em>2025</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">获“华为杯”中国研究生数学建模竞赛三等奖。</span></li>
+    <li><span class="news-date"><em>2026.07</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">一篇第一作者论文被 <strong>IEEE TMM</strong> 录用，研究免训练视频异常检测中的不确定性引导层级检索。</span></li>
+    <li><span class="news-date"><em>2026.06</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">获批2026年重庆市研究生科研创新项目。</span></li>
+    <li><span class="news-date"><em>2026.05</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">一篇关于视频异常推理语言化相对策略优化的论文被 <strong>ICML 2026</strong> 录用。</span></li>
+    <li><span class="news-date"><em>2026.04</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">一篇合作论文被 <strong>ICMR 2026</strong> 录用，研究低光照视频异常检测中的检索引导上下文推理。</span></li>
+    <li><span class="news-date"><em>2025.09</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">一篇合作基准论文被 <strong>NeurIPS D&amp;B 2025</strong> 录用：A2Seek，面向航拍异常理解的推理中心基准。</span></li>
+    <li><span class="news-date"><em>2025.10</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">获重庆邮电大学研究生一等学业奖学金。</span></li>
+    <li><span class="news-date"><em>2025.12</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">获“华为杯”中国研究生数学建模竞赛三等奖。</span></li>
   </ul>
 </div>
 
