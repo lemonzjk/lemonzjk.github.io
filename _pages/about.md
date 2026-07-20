@@ -32,7 +32,7 @@ redirect_from:
   </span>
 </div>
 
-Hi! I am an academic M.S. student in Computer Science and Technology at Chongqing University of Posts and Telecommunications, advised by **Associate Professor Jiaxu Leng** in **Professor Xinbo Gao**'s team.
+Hi! I am an academic M.S. student in Computer Science and Technology at Chongqing University of Posts and Telecommunications, advised by [**Associate Professor Jiaxu Leng**](https://faculty.cqupt.edu.cn/lengjiaxu/en/index.htm) in [**Professor Xinbo Gao**](https://faculty.xidian.edu.cn/GXB/en/index.htm)'s team.
 
 I am applying for **2027 Fall Ph.D. programs**. My research focuses on **Video Anomaly Understanding (VAU)**, and I am also very interested in **multimodal large models, agents, and embodied intelligence**.
 
