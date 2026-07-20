@@ -43,7 +43,7 @@ stylesheets:
 </div>
 
 <div class="home-actions" aria-label="CV shortcuts">
-  <a class="home-action home-action--primary" href="/files/cv-zh.pdf" target="_blank" rel="noopener">下载中文简历 PDF</a>
+  <a class="home-action home-action--primary" href="/files/cv-zh.pdf?v=20260720" target="_blank" rel="noopener">下载中文简历 PDF</a>
   <a class="home-action" href="/cv/">中文简历</a>
   <a class="home-action" href="/cv-en/">English CV</a>
 </div>
@@ -51,6 +51,7 @@ stylesheets:
 <h2 id="news">动态</h2>
 <div class="news-box">
   <ul class="news-list">
+    <li><span class="news-date"><em>2026</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">2026年7月19日，第一作者论文被 <strong>IEEE Transactions on Multimedia (TMM)</strong> 录用，研究免训练视频异常检测中的不确定性引导层级检索。</span></li>
     <li><span class="news-date"><em>2026</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">一篇关于视频异常推理语言化相对策略优化的论文被 <strong>ICML 2026</strong> 录用。</span></li>
     <li><span class="news-date"><em>2026</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">一篇合作论文被 <strong>ICMR 2026</strong> 录用，研究低光照视频异常检测中的检索引导上下文推理。</span></li>
     <li><span class="news-date"><em>2025</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">一篇合作基准论文被 <strong>NeurIPS D&amp;B 2025</strong> 录用：A2Seek，面向航拍异常理解的推理中心基准。</span></li>
@@ -132,7 +133,7 @@ stylesheets:
       </span>
       <p class="pub-card-summary">UGHR 评估当前片段的判别不确定性，并从短时记忆、场景记忆和全局记忆中逐级检索高置信正常/异常参考样例，以增强冻结 VLM 在弱视觉线索下的异常判断能力。</p>
       <div class="pub-card-footer">
-        <span class="pub-card-venue">IEEE TMM · Under Revision · CCF-A / 中科院一区 Top</span>
+        <span class="pub-card-venue">IEEE TMM · 已录用 · CCF-A / 中科院一区 Top</span>
         <div class="pub-links">
           <a class="pub-link pub-link--code" href="https://github.com/lemonzjk/UGHR" target="_blank" rel="noopener"><i class="fab fa-github pub-link__icon" aria-hidden="true"></i><span>Code</span></a>
         </div>
@@ -186,7 +187,7 @@ stylesheets:
       <span class="pub-list-badge">IEEE TMM</span>
       <span class="pub-list-title">Training-Free Video Anomaly Detection via Uncertainty-Guided Hierarchical Retrieval with Vision-Language Models</span><br>
       <span class="pub-list-authors"><strong>Jiankang Zheng</strong>（第一作者）, Mengjingcheng Mo*, Jiaxu Leng, Mingpi Tan, Zhanjie Wu, Ji Gan, Haosheng Chen, and Xinbo Gao.</span>
-      <span class="pub-list-note">Under Revision; CCF-A; 中科院一区 Top.</span>
+      <span class="pub-list-note">已录用；CCF-A；中科院一区 Top。</span>
       <span class="pub-list-links"><a class="pub-link--code" href="https://github.com/lemonzjk/UGHR" target="_blank" rel="noopener"><i class="fab fa-github pub-link__icon" aria-hidden="true"></i><span>Code</span></a></span>
     </li>
     <li>

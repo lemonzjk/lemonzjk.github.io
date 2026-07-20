@@ -11,7 +11,7 @@ stylesheets:
 
 <div class="cv-wrap">
   <div class="cv-toolbar" aria-label="CV actions">
-    <a class="cv-action" href="/files/cv-en.pdf" target="_blank" rel="noopener">Download English PDF</a>
+    <a class="cv-action" href="/files/cv-en.pdf?v=20260720" target="_blank" rel="noopener">Download English PDF</a>
     <a class="cv-action cv-action--ghost" href="/cv/">中文简历</a>
     <button class="cv-action cv-action--ghost" type="button" onclick="window.print()">Print / Save PDF</button>
   </div>
@@ -76,7 +76,7 @@ stylesheets:
       <li class="cv-pub">
         <span class="cv-pub-num">[2]</span>
         <span class="cv-pub-body">
-          <strong class="cv-self">Jiankang Zheng</strong> (first author), Mengjingcheng Mo*, Jiaxu Leng, Mingpi Tan, Zhanjie Wu, Ji Gan, Haosheng Chen, and Xinbo Gao. <span class="cv-pub-title">Training-Free Video Anomaly Detection via Uncertainty-Guided Hierarchical Retrieval with Vision-Language Models.</span> IEEE Transactions on Multimedia (TMM). Under revision. <span class="cv-tag">(CCF-A; CAS Q1 Top Journal)</span>
+          <strong class="cv-self">Jiankang Zheng</strong> (first author), Mengjingcheng Mo*, Jiaxu Leng, Mingpi Tan, Zhanjie Wu, Ji Gan, Haosheng Chen, and Xinbo Gao. <span class="cv-pub-title">Training-Free Video Anomaly Detection via Uncertainty-Guided Hierarchical Retrieval with Vision-Language Models.</span> IEEE Transactions on Multimedia (TMM). Accepted. <span class="cv-tag">(CCF-A; CAS Q1 Top Journal)</span>
           <ul class="cv-detail-list">
             <li><strong class="cv-label">Problem:</strong> Although existing training-free video anomaly detection methods avoid task-specific annotations and parameter tuning, they often suffer performance degradation in complex scenarios such as low illumination, occlusion, and camera motion, where visual cues are sparse and auxiliary context is insufficient.</li>
             <li><strong class="cv-label">Method:</strong> We propose UGHR, an uncertainty-guided hierarchical retrieval framework. It first estimates the discriminative uncertainty of the current video segment, then progressively retrieves high-confidence normal and abnormal reference samples from short-term, scene-level, and global memories. These references provide contextual evidence for frozen VLMs and strengthen anomaly judgment under weak visual evidence.</li>
