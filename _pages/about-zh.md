@@ -51,6 +51,7 @@ stylesheets:
 <h2 id="news">动态</h2>
 <div class="news-box">
   <ul class="news-list">
+    <li><span class="news-date"><em>2026.10</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">获国家奖学金。</span></li>
     <li><span class="news-date"><em>2026.07</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">一篇第一作者论文被 <strong>IEEE TMM</strong> 录用，研究免训练视频异常检测中的不确定性引导层级检索。</span></li>
     <li><span class="news-date"><em>2026.06</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">获批2026年重庆市研究生科研创新项目。</span></li>
     <li><span class="news-date"><em>2026.05</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">一篇关于视频异常推理语言化相对策略优化的论文被 <strong>ICML 2026</strong> 录用。</span></li>

@@ -54,6 +54,7 @@ Feel free to reach out if you are interested in research discussion or collabora
 <h2 id="news">News</h2>
 <div class="news-box">
   <ul class="news-list">
+    <li><span class="news-date"><em>2026.10</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">Awarded the National Scholarship.</span></li>
     <li><span class="news-date"><em>2026.07</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">One first-author paper accepted by <strong>IEEE TMM</strong> on uncertainty-guided hierarchical retrieval for training-free video anomaly detection.</span></li>
     <li><span class="news-date"><em>2026.06</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">Received approval for a 2026 Chongqing Graduate Student Research Innovation Project.</span></li>
     <li><span class="news-date"><em>2026.05</em></span><span class="news-emoji" aria-hidden="true">🎉</span><span class="news-text">One paper accepted by <strong>ICML 2026</strong> on linguistic relative policy optimization for video anomaly reasoning.</span></li>
